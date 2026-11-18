@@ -1,0 +1,1225 @@
+{
+ "paper": [
+  {
+   "quantity": "A: lambda [GeV^-2]",
+   "program": 10.309519604203112,
+   "paper": "10.3095",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: nu",
+   "program": 4.288120342741668,
+   "paper": "4.28812",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: Gamma(0)",
+   "program": 0.8828218873450964,
+   "paper": "0.8828",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: H = sigma_tot^Born [mb]",
+   "program": 216.31577819099846,
+   "paper": "216.32",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: sigma_tot [mb]",
+   "program": 139.23359946848947,
+   "paper": "139.23",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: sigma_tot [mb]",
+   "program": 139.23359946848947,
+   "paper": "139.2",
+   "location": "Abstract, Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: sigma_el [mb]",
+   "program": 36.54022145831341,
+   "paper": "36.54",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: sigma_inel [mb]",
+   "program": 102.69337801017606,
+   "paper": "102.69",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: B(0) [GeV^-2]",
+   "program": 25.533627236959518,
+   "paper": "25.53",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: |t_0| [GeV^2]",
+   "program": 0.24415735555785692,
+   "paper": "0.2442",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: |t_0| [GeV^2]",
+   "program": 0.24415735555785692,
+   "paper": "0.244",
+   "location": "Abstract, Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: 2nd max [GeV^2]",
+   "program": 0.35707869215555504,
+   "paper": "0.357",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: sigma_tot - TOTEM [mb]",
+   "program": 28.63359946848948,
+   "paper": "28.6",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: relative excess [%]",
+   "program": 25.889330441672225,
+   "paper": "25.9",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: sigma_inel - TOTEM [mb]",
+   "program": 23.193378010176062,
+   "paper": "23.2",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: sigma_el - TOTEM [mb]",
+   "program": 5.540221458313411,
+   "paper": "5.5",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: (H-exp)/(eik-exp)",
+   "program": 3.6920184731694627,
+   "paper": "3.7",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: Born ratio nu/8",
+   "program": 0.5360150428427085,
+   "paper": "0.536",
+   "location": "Sec. VI, VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: eikonal sigma_el/sigma_tot",
+   "program": 0.26243824477570143,
+   "paper": "0.262",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: Gamma(0)",
+   "program": 0.8828218873450964,
+   "paper": "0.883",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "rho_Born = tan(pi Delta/2)",
+   "program": 0.1276062736984537,
+   "paper": "0.13",
+   "location": "Sec. III, VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: lambda [GeV^-2]",
+   "program": 7.384336588085807,
+   "paper": "7.38434",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: nu",
+   "program": 5.066083484449648,
+   "paper": "5.06608",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: Gamma(0)",
+   "program": 0.9205829137826227,
+   "paper": "0.9206",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: Gamma(0)",
+   "program": 0.9205829137826227,
+   "paper": "0.921",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: sigma_tot [mb] (input)",
+   "program": 110.60000000000001,
+   "paper": "110.60",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: sigma_el [mb] (input)",
+   "program": 31.078600000000012,
+   "paper": "31.08",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: sigma_inel [mb] (input)",
+   "program": 79.52139999999999,
+   "paper": "79.52",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: B(0) [GeV^-2]",
+   "program": 18.831384685936385,
+   "paper": "18.83",
+   "location": "Table 1, Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: |t_0| [GeV^2]",
+   "program": 0.3154920227354897,
+   "paper": "0.3155",
+   "location": "Table 1",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: |t_0| [GeV^2]",
+   "program": 0.3154920227354897,
+   "paper": "0.315",
+   "location": "Abstract, Sec. VI-VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: 2nd max [GeV^2]",
+   "program": 0.46963662739192863,
+   "paper": "0.470",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B/TOTEM at 0.468",
+   "program": 14.762438107494651,
+   "paper": "14.8",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B/TOTEM at 0.632",
+   "program": 4.026522989206464,
+   "paper": "4.0",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B/TOTEM at 0.2: deficit [%]",
+   "program": 34.57861357481931,
+   "paper": "35",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: min G_inel(0)",
+   "program": 0.9862692899146347,
+   "paper": "0.98",
+   "location": "Sec. VI (lower bound)",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Born-limit sigma_tot/H (nu=1e-4)",
+   "program": 0.9999875001388875,
+   "paper": "0.9999875",
+   "location": "Sec. V",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.B: data slope 0.04-0.2",
+   "program": 20.38871029993705,
+   "paper": "20.39",
+   "location": "App. B",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.B: set B slope (bin avg)",
+   "program": 23.06072930956378,
+   "paper": "23.06",
+   "location": "App. B",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.B: set A slope (bin avg)",
+   "program": 34.980217127432915,
+   "paper": "34.98",
+   "location": "App. B",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.B: n bins in slope fit",
+   "program": 94,
+   "paper": "94",
+   "location": "App. B",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.B: data bump/dip ratio",
+   "program": 1.7718037860951585,
+   "paper": "1.772",
+   "location": "App. B",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.B: B within 10% [%]",
+   "program": 23.79310344827586,
+   "paper": "24",
+   "location": "App. B",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.B: A within 10% [%]",
+   "program": 7.241379310344828,
+   "paper": "7",
+   "location": "App. B",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.B: B within 5% up to |t|",
+   "program": 0.06814,
+   "paper": "0.068",
+   "location": "App. B",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "App.A: max point-vs-bin, all bins [%]",
+   "program": 97.85614334723533,
+   "paper": "98",
+   "location": "App. A",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Sec.VII: Ac rho",
+   "program": 0.09504906580909825,
+   "paper": "0.0950",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Sec.VII: Ac rho (dispersion)",
+   "program": 0.0950087777850906,
+   "paper": "0.0950",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc lambda",
+   "program": 7.516049743217299,
+   "paper": "7.516",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc nu",
+   "program": 4.9094893675389795,
+   "paper": "4.909",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc rho",
+   "program": 0.09788029833778389,
+   "paper": "0.098",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc B0",
+   "program": 19.061727227942526,
+   "paper": "19.06",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc slope",
+   "program": 23.213795313145955,
+   "paper": "23.21",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc min",
+   "program": 0.31679999999999997,
+   "paper": "0.317",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc max",
+   "program": 0.4596,
+   "paper": "0.460",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc R",
+   "program": 4.6652064773965,
+   "paper": "4.67",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C lam1",
+   "program": 8.947155525639317,
+   "paper": "8.947",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C lam2",
+   "program": 1.9829281190025088,
+   "paper": "1.983",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C nu1",
+   "program": 3.2482809477028125,
+   "paper": "3.248",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C nu2",
+   "program": 6.3533289896767675,
+   "paper": "6.353",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C rho",
+   "program": 0.10298011120532599,
+   "paper": "0.103",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C B0",
+   "program": 19.8846042209766,
+   "paper": "19.88",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C slope",
+   "program": 21.142909158638957,
+   "paper": "21.14",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C frac10 <1 [%]",
+   "program": 47.03703703703704,
+   "paper": "47",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' lam1",
+   "program": 8.783956429239556,
+   "paper": "8.784",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' lam2",
+   "program": 2.8486433772003696,
+   "paper": "2.849",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' nu1",
+   "program": 3.2793028534270627,
+   "paper": "3.279",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' nu2",
+   "program": 3.6225913580201135,
+   "paper": "3.623",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' rho",
+   "program": 0.10013521985009273,
+   "paper": "0.100",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' B0",
+   "program": 19.668081573342988,
+   "paper": "19.67",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' slope",
+   "program": 21.60617187458574,
+   "paper": "21.61",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' min",
+   "program": 0.39679999999999993,
+   "paper": "0.397",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' max",
+   "program": 0.5312,
+   "paper": "0.531",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' R",
+   "program": 1.556200167011792,
+   "paper": "1.56",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' frac10 <1 [%]",
+   "program": 31.11111111111111,
+   "paper": "31",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc frac10 <1 [%]",
+   "program": 24.814814814814813,
+   "paper": "25",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: B frac10 <1 [%]",
+   "program": 25.555555555555554,
+   "paper": "26",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: B ratio dip",
+   "program": 14.762438107392494,
+   "paper": "14.76",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": 1.0
+  },
+  {
+   "quantity": "Tab.ext: Bc ratio dip",
+   "program": 14.973722229556772,
+   "paper": "14.97",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": 1.0
+  },
+  {
+   "quantity": "Tab.ext: C ratio dip",
+   "program": 2.0381556699745493,
+   "paper": "2.04",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": 1.0
+  },
+  {
+   "quantity": "Tab.ext: C' ratio dip",
+   "program": 3.692902080078626,
+   "paper": "3.69",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": 1.0
+  },
+  {
+   "quantity": "Tab.ext: B rms<1",
+   "program": 1.7993628478088555,
+   "paper": "1.80",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc rms<1",
+   "program": 1.2034372209621924,
+   "paper": "1.20",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C rms<1",
+   "program": 0.20577763782890907,
+   "paper": "0.21",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' rms<1",
+   "program": 0.5420864822567326,
+   "paper": "0.54",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: B rms all",
+   "program": 1.8629398294732802,
+   "paper": "1.86",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: Bc rms all",
+   "program": 1.2499959485932168,
+   "paper": "1.25",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C rms all",
+   "program": 0.9970008180160413,
+   "paper": "1.00",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Tab.ext: C' rms all",
+   "program": 0.708110006396126,
+   "paper": "0.71",
+   "location": "Table 6",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Sec.VII: C overshoot min",
+   "program": 1.8741846746695099,
+   "paper": "1.9",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Sec.VII: C overshoot max",
+   "program": 739.3148943651395,
+   "paper": "739",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Sec.VII: check numeric vs series",
+   "program": 4.714418992367598,
+   "paper": "6",
+   "location": "Sec. VII (x1e-12)",
+   "found_in_tex": true,
+   "agrees": false
+  },
+  {
+   "quantity": "GW g=0.2 lambda",
+   "program": 7.354613141236938,
+   "paper": "7.35",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.2 nu",
+   "program": 5.25400813531149,
+   "paper": "5.25",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.2 sigma_lowmass",
+   "program": 0.7053680713269541,
+   "paper": "0.71",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.2 t_min",
+   "program": 0.3114,
+   "paper": "0.311",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.2 ratio dip",
+   "program": 16.9137179795858,
+   "paper": "16.9",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.4 lambda",
+   "program": 6.868045866899056,
+   "paper": "6.87",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.4 nu",
+   "program": 6.584142733026862,
+   "paper": "6.58",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.4 sigma_lowmass",
+   "program": 2.712598271884372,
+   "paper": "2.71",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.4 t_min",
+   "program": 0.298,
+   "paper": "0.298",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.4 ratio dip",
+   "program": 22.600009181241322,
+   "paper": "22.6",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.6 lambda",
+   "program": 6.064637319703571,
+   "paper": "6.06",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.6 nu",
+   "program": 10.458510489559206,
+   "paper": "10.46",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.6 sigma_lowmass",
+   "program": 5.8202403943877234,
+   "paper": "5.82",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.6 t_min",
+   "program": 0.2828,
+   "paper": "0.283",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW g=0.6 ratio dip",
+   "program": 29.74204668974888,
+   "paper": "29.7",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW Pumplin max ratio",
+   "program": 0.9166477840441101,
+   "paper": "0.92",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "GW best-fit gamma",
+   "program": 5.320180123926299e-06,
+   "paper": "0",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "asymptotic coefficient 8 pi alpha Delta [mb]",
+   "program": 0.19768065417556063,
+   "paper": "0.198",
+   "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setA at |t|=0.0499",
+   "program": 263.9476941195803,
+   "paper": "263.95",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setA at |t|=0.10012",
+   "program": 60.932011751218795,
+   "paper": "60.93",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setA at |t|=0.19979",
+   "program": 1.0334075614772336,
+   "paper": "1.033",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setA at |t|=0.2996",
+   "program": 0.28624314165115416,
+   "paper": "0.2862",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setA at |t|=0.46799",
+   "program": 0.22789306411702137,
+   "paper": "0.2279",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setA at |t|=0.63179",
+   "program": 0.025937642236891545,
+   "paper": "0.02594",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: A_over_TOTEM at |t|=0.0499",
+   "program": 1.161521781175131,
+   "paper": "1.162",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: A_over_TOTEM at |t|=0.10012",
+   "program": 0.7493790647056794,
+   "paper": "0.749",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: A_over_TOTEM at |t|=0.19979",
+   "program": 0.09753728753914427,
+   "paper": "0.098",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: A_over_TOTEM at |t|=0.2996",
+   "program": 0.2411240158123477,
+   "paper": "0.241",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: A_over_TOTEM at |t|=0.46799",
+   "program": 8.357466357039385,
+   "paper": "8.36",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: A_over_TOTEM at |t|=0.63179",
+   "program": 0.5368567272956963,
+   "paper": "0.537",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setB at |t|=0.0499",
+   "program": 237.3460304562554,
+   "paper": "237.35",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setB at |t|=0.10012",
+   "program": 83.39332782590867,
+   "paper": "83.39",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setB at |t|=0.19979",
+   "program": 6.931395891747894,
+   "paper": "6.931",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setB at |t|=0.2996",
+   "program": 0.03719665721874194,
+   "paper": "0.03720",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setB at |t|=0.46799",
+   "program": 0.40254511480278565,
+   "paper": "0.4025",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: setB at |t|=0.63179",
+   "program": 0.1945370290482222,
+   "paper": "0.1945",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: B_over_TOTEM at |t|=0.0499",
+   "program": 1.0444591492642474,
+   "paper": "1.044",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: B_over_TOTEM at |t|=0.10012",
+   "program": 1.0256220369684992,
+   "paper": "1.026",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: B_over_TOTEM at |t|=0.19979",
+   "program": 0.6542138642518069,
+   "paper": "0.654",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: B_over_TOTEM at |t|=0.2996",
+   "program": 0.03133352754459696,
+   "paper": "0.031",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: B_over_TOTEM at |t|=0.46799",
+   "program": 14.762438107494651,
+   "paper": "14.76",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "Table 2: B_over_TOTEM at |t|=0.63179",
+   "program": 4.026522989206464,
+   "paper": "4.03",
+   "location": "Table 2",
+   "found_in_tex": true,
+   "agrees": true
+  }
+ ],
+ "handoff": [
+  {
+   "quantity": "A: sigma_tot [mb]",
+   "program": 139.23359946848947,
+   "handoff": 139.2336,
+   "rel_diff": -3.817401278897499e-09,
+   "note": ""
+  },
+  {
+   "quantity": "A: sigma_el [mb]",
+   "program": 36.54022145831341,
+   "handoff": 36.5402,
+   "rel_diff": 5.872522157071215e-07,
+   "note": ""
+  },
+  {
+   "quantity": "A: sigma_inel [mb]",
+   "program": 102.69337801017606,
+   "handoff": 102.6934,
+   "rel_diff": -2.1413083932450248e-07,
+   "note": ""
+  },
+  {
+   "quantity": "A: |t_0| [GeV^2]",
+   "program": 0.24415735555785692,
+   "handoff": 0.244157,
+   "rel_diff": 1.4562673071302324e-06,
+   "note": ""
+  },
+  {
+   "quantity": "A: B(0) [GeV^-2]",
+   "program": 25.533627236959518,
+   "handoff": 25.5336,
+   "rel_diff": 1.066710511561497e-06,
+   "note": ""
+  },
+  {
+   "quantity": "A: excess over TOTEM [%]",
+   "program": 25.889330441672225,
+   "handoff": 25.89,
+   "rel_diff": -2.586165808325133e-05,
+   "note": ""
+  },
+  {
+   "quantity": "B: a",
+   "program": 2.533041742224824,
+   "handoff": 2.53304174,
+   "rel_diff": 8.783212252831747e-10,
+   "note": ""
+  },
+  {
+   "quantity": "B: nu",
+   "program": 5.066083484449648,
+   "handoff": 5.06608348,
+   "rel_diff": 8.783212252831747e-10,
+   "note": ""
+  },
+  {
+   "quantity": "B: lambda [GeV^-2]",
+   "program": 7.384336588085807,
+   "handoff": 7.38433659,
+   "rel_diff": -2.59223455624402e-10,
+   "note": ""
+  },
+  {
+   "quantity": "B: sigma_tot [mb]",
+   "program": 110.60000000000001,
+   "handoff": 110.6,
+   "rel_diff": 1.2848874064377942e-16,
+   "note": "input"
+  },
+  {
+   "quantity": "B: sigma_el [mb]",
+   "program": 31.078600000000012,
+   "handoff": 31.0786,
+   "rel_diff": 3.429414785865999e-16,
+   "note": ""
+  },
+  {
+   "quantity": "B: sigma_inel [mb]",
+   "program": 79.52139999999999,
+   "handoff": 79.5214,
+   "rel_diff": -1.7870478531819111e-16,
+   "note": ""
+  },
+  {
+   "quantity": "B: B(0) [GeV^-2]",
+   "program": 18.831384685936385,
+   "handoff": 18.8314,
+   "rel_diff": -8.132196020295035e-07,
+   "note": ""
+  },
+  {
+   "quantity": "B: |t_0| [GeV^2]",
+   "program": 0.3154920227354897,
+   "handoff": 0.315492,
+   "rel_diff": 7.206360133727434e-08,
+   "note": ""
+  },
+  {
+   "quantity": "B: dsdt at 0.04990",
+   "program": 237.3460304562554,
+   "handoff": 237.346,
+   "rel_diff": 1.2832007022612364e-07,
+   "note": "handoff: bin average; program: point value"
+  },
+  {
+   "quantity": "B: dsdt at 0.10012",
+   "program": 83.39332782590867,
+   "handoff": 83.3933,
+   "rel_diff": 3.3367079458562346e-07,
+   "note": "bin avg vs point"
+  },
+  {
+   "quantity": "B: dsdt at 0.19979",
+   "program": 6.931395891747894,
+   "handoff": 6.9314,
+   "rel_diff": -5.9270163395805e-07,
+   "note": "bin avg vs point"
+  },
+  {
+   "quantity": "B: dsdt at 0.29960",
+   "program": 0.03719665721874194,
+   "handoff": 0.0371967,
+   "rel_diff": -1.1501358469153561e-06,
+   "note": "bin avg vs point"
+  },
+  {
+   "quantity": "B: dsdt at 0.46799",
+   "program": 0.40254511480278565,
+   "handoff": 0.402545,
+   "rel_diff": 2.8519242734794577e-07,
+   "note": "bin avg vs point"
+  },
+  {
+   "quantity": "B: dsdt at 0.63179",
+   "program": 0.1945370290482222,
+   "handoff": 0.194537,
+   "rel_diff": 1.4931978089771584e-07,
+   "note": "bin avg vs point"
+  },
+  {
+   "quantity": "B: log-lin slope 0.04-0.2",
+   "program": 23.08301032294686,
+   "handoff": 23.0607,
+   "rel_diff": 0.0009674607859630346,
+   "note": "handoff: 94 data |t| points; program: uniform grid"
+  }
+ ]
+}
