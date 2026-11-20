@@ -1,5 +1,5 @@
 """Figures 4, 6 and 7 of the paper: fig_profile (profiles of sets A and B and the profile of Eq. (22)
-reconstructed from the data), fig_kmr (models M1-M4 of Eqs. (26)-(28)) and fig_universal (Eq. (29)).
+reconstructed from the data), fig_kmr (models M1-M4 of Eqs. (27)-(28)) and fig_universal (Eq. (29)).
 Run from this directory after universal_curves.py, profile_inversion.py and kmr_fits.py:
     python3 make_new_figures.py [output_dir, default ../output]"""
 import json, os, sys, numpy as np, matplotlib

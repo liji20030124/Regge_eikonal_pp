@@ -4,7 +4,7 @@ Two-channel Good-Walker eikonal (PDG review [Khoze-Ryskin-Tasevsky], Eqs. 20.20-
   |p> = (|phi_1> + |phi_2>)/sqrt(2),  Omega_ik = gamma_i gamma_k Omega(b),  gamma_{1,2} = 1 +- gamma,
   F_ik = 1 - exp(-Omega_ik/2),  <F> = (1/4) sum_ik F_ik,
   dsigma_tot/d2b = 2 Re<F>,  dsigma_el/d2b = |<F>|^2,  dsigma_(el+low-mass diffr.)/d2b = <|F|^2>.
-Omega(b) is the complex single-Gaussian opacity of Eq. (Bornc) (set B_c), so that gamma = 0 reproduces set B_c.
+Omega(b) is the complex single-Gaussian opacity of Eq. (24) (set B_c), so that gamma = 0 reproduces set B_c.
 (H, lambda) are calibrated to sigma_tot and r of TOTEM; gamma is fitted (equal weights in ln dsigma/dt)
 to the bins with |t| < TFIT.   Usage: python3 goodwalker.py TOTEM13_dsdt.csv outdir
 """

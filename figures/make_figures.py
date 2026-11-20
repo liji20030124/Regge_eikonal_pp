@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-Self-contained script that reproduces Figs. 1-6 of
+Self-contained script that reproduces Figs. 1, 2, 3, 5 and 8 of
 "Regge-eikonal description of high-energy proton-proton elastic scattering:
  a single-channel Gaussian benchmark confronted with TOTEM data at sqrt(s)=13 TeV".
 
 Requirements: numpy, scipy, matplotlib (Python 3).
 Run:  python3 make_figures.py      ->  fig_dsdt.pdf, fig_sigma.pdf, fig_ratio_slope.pdf,
-                                        fig_profile.pdf, fig_full290.pdf, fig_ext.pdf
+                                        fig_full290.pdf, fig_ext.pdf
+      (Figs. 4, 6, 7 are drawn by make_new_figures.py; documentation: ../docs/CODE.md)
                                         (and PNG copies of each)
 Experimental data: TOTEM 13 TeV, Eur. Phys. J. C 79, 861 (2019), Tables 5-10 (290 bins) and
                    Eur. Phys. J. C 79, 103 (2019), Eqs. (8)-(10) and Table 5.
@@ -368,7 +369,7 @@ BMAX = 60.0
 BB = 0.5 * BMAX * (xb + 1)
 WB = 0.5 * BMAX * wb
 
-def comps(H, lam):                                       # Eq. (22): H_c, lambda_c
+def comps(H, lam):                                       # Eq. (24): H_c, lambda_c
     return [(H * (1 - 1j * TAU), lam - 1j * np.pi * ALPHAP / 2)]
 
 def dsdt_b(t, cs):                                       # numerical Hankel transform of Eq. (10)
@@ -387,7 +388,7 @@ def binavg_b(cs, n=8):
 P_Bc = dict(H=463.6986521879253, lam=7.516049743207573)
 P_C  = dict(H=523.5284398069476, lam1=8.947155520895944, f=0.3023972935798408, k=0.2216266513709733)   # |t| < 1
 P_Cp = dict(H=491.655785211584,  lam1=8.783956444710284, f=0.2637583056330201, k=0.32430072008985505)  # all bins
-def comps_two(p):                                        # Eq. (24)
+def comps_two(p):                                        # Eq. (25)
     return comps(p["H"] * (1 - p["f"]), p["lam1"]) + comps(p["H"] * p["f"], p["lam1"] * p["k"])
 
 def save(fig, name):

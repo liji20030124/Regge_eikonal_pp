@@ -47,47 +47,47 @@ App.B: B within 5% up to |t|                  0.06814      0.068    Y   Y   App.
 App.A: max point-vs-bin, all bins [%]        97.85614         98    Y   Y   App. A
 Sec.VII: Ac rho                            0.09504907     0.0950    Y   Y   Sec. VII
 Sec.VII: Ac rho (dispersion)               0.09500878     0.0950    Y   Y   Sec. VII
-Tab.ext: Bc lambda                            7.51605      7.516    Y   Y   Table 6
-Tab.ext: Bc nu                               4.909489      4.909    Y   Y   Table 6
-Tab.ext: Bc rho                             0.0978803      0.098    Y   Y   Table 6
-Tab.ext: Bc B0                               19.06173      19.06    Y   Y   Table 6
-Tab.ext: Bc slope                             23.2138      23.21    Y   Y   Table 6
-Tab.ext: Bc min                                0.3168      0.317    Y   Y   Table 6
-Tab.ext: Bc max                                0.4596      0.460    Y   Y   Table 6
-Tab.ext: Bc R                                4.665206       4.67    Y   Y   Table 6
-Tab.ext: C lam1                              8.947156      8.947    Y   Y   Table 6
-Tab.ext: C lam2                              1.982928      1.983    Y   Y   Table 6
-Tab.ext: C nu1                               3.248281      3.248    Y   Y   Table 6
-Tab.ext: C nu2                               6.353329      6.353    Y   Y   Table 6
-Tab.ext: C rho                              0.1029801      0.103    Y   Y   Table 6
-Tab.ext: C B0                                 19.8846      19.88    Y   Y   Table 6
-Tab.ext: C slope                             21.14291      21.14    Y   Y   Table 6
-Tab.ext: C frac10 <1 [%]                     47.03704         47    Y   Y   Table 6
-Tab.ext: C' lam1                             8.783956      8.784    Y   Y   Table 6
-Tab.ext: C' lam2                             2.848643      2.849    Y   Y   Table 6
-Tab.ext: C' nu1                              3.279303      3.279    Y   Y   Table 6
-Tab.ext: C' nu2                              3.622591      3.623    Y   Y   Table 6
-Tab.ext: C' rho                             0.1001352      0.100    Y   Y   Table 6
-Tab.ext: C' B0                               19.66808      19.67    Y   Y   Table 6
-Tab.ext: C' slope                            21.60617      21.61    Y   Y   Table 6
-Tab.ext: C' min                                0.3968      0.397    Y   Y   Table 6
-Tab.ext: C' max                                0.5312      0.531    Y   Y   Table 6
-Tab.ext: C' R                                  1.5562       1.56    Y   Y   Table 6
-Tab.ext: C' frac10 <1 [%]                    31.11111         31    Y   Y   Table 6
-Tab.ext: Bc frac10 <1 [%]                    24.81481         25    Y   Y   Table 6
-Tab.ext: B frac10 <1 [%]                     25.55556         26    Y   Y   Table 6
-Tab.ext: B ratio dip                         14.76244      14.76    Y   Y   Table 6
-Tab.ext: Bc ratio dip                        14.97372      14.97    Y   Y   Table 6
-Tab.ext: C ratio dip                         2.038156       2.04    Y   Y   Table 6
-Tab.ext: C' ratio dip                        3.692902       3.69    Y   Y   Table 6
-Tab.ext: B rms<1                             1.799363       1.80    Y   Y   Table 6
-Tab.ext: Bc rms<1                            1.203437       1.20    Y   Y   Table 6
-Tab.ext: C rms<1                            0.2057776       0.21    Y   Y   Table 6
-Tab.ext: C' rms<1                           0.5420865       0.54    Y   Y   Table 6
-Tab.ext: B rms all                            1.86294       1.86    Y   Y   Table 6
-Tab.ext: Bc rms all                          1.249996       1.25    Y   Y   Table 6
-Tab.ext: C rms all                          0.9970008       1.00    Y   Y   Table 6
-Tab.ext: C' rms all                           0.70811       0.71    Y   Y   Table 6
+Tab.ext: Bc lambda                            7.51605      7.516    Y   Y   Table 3
+Tab.ext: Bc nu                               4.909489      4.909    Y   Y   Table 3
+Tab.ext: Bc rho                             0.0978803      0.098    Y   Y   Table 3
+Tab.ext: Bc B0                               19.06173      19.06    Y   Y   Table 3
+Tab.ext: Bc slope                             23.2138      23.21    Y   Y   Table 3
+Tab.ext: Bc min                                0.3168      0.317    Y   Y   Table 3
+Tab.ext: Bc max                                0.4596      0.460    Y   Y   Table 3
+Tab.ext: Bc R                                4.665206       4.67    Y   Y   Table 3
+Tab.ext: C lam1                              8.947156      8.947    Y   Y   Table 3
+Tab.ext: C lam2                              1.982928      1.983    Y   Y   Table 3
+Tab.ext: C nu1                               3.248281      3.248    Y   Y   Table 3
+Tab.ext: C nu2                               6.353329      6.353    Y   Y   Table 3
+Tab.ext: C rho                              0.1029801      0.103    Y   Y   Table 3
+Tab.ext: C B0                                 19.8846      19.88    Y   Y   Table 3
+Tab.ext: C slope                             21.14291      21.14    Y   Y   Table 3
+Tab.ext: C frac10 <1 [%]                     47.03704         47    Y   Y   Table 3
+Tab.ext: C' lam1                             8.783956      8.784    Y   Y   Table 3
+Tab.ext: C' lam2                             2.848643      2.849    Y   Y   Table 3
+Tab.ext: C' nu1                              3.279303      3.279    Y   Y   Table 3
+Tab.ext: C' nu2                              3.622591      3.623    Y   Y   Table 3
+Tab.ext: C' rho                             0.1001352      0.100    Y   Y   Table 3
+Tab.ext: C' B0                               19.66808      19.67    Y   Y   Table 3
+Tab.ext: C' slope                            21.60617      21.61    Y   Y   Table 3
+Tab.ext: C' min                                0.3968      0.397    Y   Y   Table 3
+Tab.ext: C' max                                0.5312      0.531    Y   Y   Table 3
+Tab.ext: C' R                                  1.5562       1.56    Y   Y   Table 3
+Tab.ext: C' frac10 <1 [%]                    31.11111         31    Y   Y   Table 3
+Tab.ext: Bc frac10 <1 [%]                    24.81481         25    Y   Y   Table 3
+Tab.ext: B frac10 <1 [%]                     25.55556         26    Y   Y   Table 3
+Tab.ext: B ratio dip                         14.76244      14.76    Y   Y   Table 3
+Tab.ext: Bc ratio dip                        14.97372      14.97    Y   Y   Table 3
+Tab.ext: C ratio dip                         2.038156       2.04    Y   Y   Table 3
+Tab.ext: C' ratio dip                        3.692902       3.69    Y   Y   Table 3
+Tab.ext: B rms<1                             1.799363       1.80    Y   Y   Table 3
+Tab.ext: Bc rms<1                            1.203437       1.20    Y   Y   Table 3
+Tab.ext: C rms<1                            0.2057776       0.21    Y   Y   Table 3
+Tab.ext: C' rms<1                           0.5420865       0.54    Y   Y   Table 3
+Tab.ext: B rms all                            1.86294       1.86    Y   Y   Table 3
+Tab.ext: Bc rms all                          1.249996       1.25    Y   Y   Table 3
+Tab.ext: C rms all                          0.9970008       1.00    Y   Y   Table 3
+Tab.ext: C' rms all                           0.70811       0.71    Y   Y   Table 3
 Sec.VII: C overshoot min                     1.874185        1.9    Y   Y   Sec. VII
 Sec.VII: C overshoot max                     739.3149        739    Y   Y   Sec. VII
 Sec.VII: check numeric vs series             4.714419          5    Y   Y   Sec. VII (x1e-12)

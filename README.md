@@ -91,7 +91,7 @@ W = σ_tot|t₀|/(8π) = Ein(a)·Q₀(a) 的最大值为 3.75（a = 6.8），TOT
 | regge_eikonal_pp.py | 第 IV 节闭合式，表 1、5、6 |
 | full_comparison.py | 290 bin 比较，表 2，附录 B |
 | extensions.py | 复振幅与双分量 opacity，表 3 |
-| goodwalker.py | 高斯 profile 上的两道 eikonal |
+| goodwalker.py | 高斯 profile 上的两道 eikonal，式 (26) |
 | profile_inversion.py | 式 (22)–(23)，由数据反演 profile |
 | energy_blackness.py | Γ(0) 达到 0.99 的能量 |
 | kmr_fits.py | 模型 M1–M4，表 4（环境变量 MODELS、NSEED） |
@@ -99,7 +99,7 @@ W = σ_tot|t₀|/(8π) = Ein(a)·Q₀(a) 的最大值为 3.75（a = 6.8），TOT
 | figures/make_figures.py, figures/make_new_figures.py | 全部图 |
 | compare.py | 程序输出与论文数字逐一比对 |
 
-新增程序的公式推导与数值细节见 [docs/new_programs.pdf](docs/new_programs.pdf)。
+各程序的用途、函数、输入输出见 [docs/CODE.md](docs/CODE.md)；新增程序的公式推导与数值细节见 [docs/new_programs.pdf](docs/new_programs.pdf)。
 
 运行：`./run_all.sh`；比对：`python3 compare.py output/results.json Regge_eikonal_pp.tex`。
 

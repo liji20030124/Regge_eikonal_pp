@@ -1,4 +1,4 @@
-r"""Models M1-M4 of Sec. VII, Eqs. (26)-(28), and the numbers of Table 4.
+r"""Models M1-M4 of Sec. VII, Eqs. (27)-(28), and the numbers of Table 4.
 Usage: [MODELS=M1,M2,M3,M4] [NSEED=4] python3 kmr_fits.py [output_dir]
 KMR-type two-channel eikonal with eigenstate-dependent form factors, real part and Odderon.
 Born for eigenstate pair (i,k), |t| written t >= 0:

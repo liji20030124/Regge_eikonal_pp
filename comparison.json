@@ -388,7 +388,7 @@
    "quantity": "Tab.ext: Bc lambda",
    "program": 7.516049743217299,
    "paper": "7.516",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -396,7 +396,7 @@
    "quantity": "Tab.ext: Bc nu",
    "program": 4.9094893675389795,
    "paper": "4.909",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -404,7 +404,7 @@
    "quantity": "Tab.ext: Bc rho",
    "program": 0.09788029833778389,
    "paper": "0.098",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -412,7 +412,7 @@
    "quantity": "Tab.ext: Bc B0",
    "program": 19.061727227942526,
    "paper": "19.06",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -420,7 +420,7 @@
    "quantity": "Tab.ext: Bc slope",
    "program": 23.213795313145955,
    "paper": "23.21",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -428,7 +428,7 @@
    "quantity": "Tab.ext: Bc min",
    "program": 0.31679999999999997,
    "paper": "0.317",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -436,7 +436,7 @@
    "quantity": "Tab.ext: Bc max",
    "program": 0.4596,
    "paper": "0.460",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -444,7 +444,7 @@
    "quantity": "Tab.ext: Bc R",
    "program": 4.6652064773965,
    "paper": "4.67",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -452,7 +452,7 @@
    "quantity": "Tab.ext: C lam1",
    "program": 8.947155525639317,
    "paper": "8.947",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -460,7 +460,7 @@
    "quantity": "Tab.ext: C lam2",
    "program": 1.9829281190025088,
    "paper": "1.983",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -468,7 +468,7 @@
    "quantity": "Tab.ext: C nu1",
    "program": 3.2482809477028125,
    "paper": "3.248",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -476,7 +476,7 @@
    "quantity": "Tab.ext: C nu2",
    "program": 6.3533289896767675,
    "paper": "6.353",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -484,7 +484,7 @@
    "quantity": "Tab.ext: C rho",
    "program": 0.10298011120532599,
    "paper": "0.103",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -492,7 +492,7 @@
    "quantity": "Tab.ext: C B0",
    "program": 19.8846042209766,
    "paper": "19.88",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -500,7 +500,7 @@
    "quantity": "Tab.ext: C slope",
    "program": 21.142909158638957,
    "paper": "21.14",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -508,7 +508,7 @@
    "quantity": "Tab.ext: C frac10 <1 [%]",
    "program": 47.03703703703704,
    "paper": "47",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -516,7 +516,7 @@
    "quantity": "Tab.ext: C' lam1",
    "program": 8.783956429239556,
    "paper": "8.784",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -524,7 +524,7 @@
    "quantity": "Tab.ext: C' lam2",
    "program": 2.8486433772003696,
    "paper": "2.849",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -532,7 +532,7 @@
    "quantity": "Tab.ext: C' nu1",
    "program": 3.2793028534270627,
    "paper": "3.279",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -540,7 +540,7 @@
    "quantity": "Tab.ext: C' nu2",
    "program": 3.6225913580201135,
    "paper": "3.623",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -548,7 +548,7 @@
    "quantity": "Tab.ext: C' rho",
    "program": 0.10013521985009273,
    "paper": "0.100",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -556,7 +556,7 @@
    "quantity": "Tab.ext: C' B0",
    "program": 19.668081573342988,
    "paper": "19.67",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -564,7 +564,7 @@
    "quantity": "Tab.ext: C' slope",
    "program": 21.60617187458574,
    "paper": "21.61",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -572,7 +572,7 @@
    "quantity": "Tab.ext: C' min",
    "program": 0.39679999999999993,
    "paper": "0.397",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -580,7 +580,7 @@
    "quantity": "Tab.ext: C' max",
    "program": 0.5312,
    "paper": "0.531",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -588,7 +588,7 @@
    "quantity": "Tab.ext: C' R",
    "program": 1.556200167011792,
    "paper": "1.56",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -596,7 +596,7 @@
    "quantity": "Tab.ext: C' frac10 <1 [%]",
    "program": 31.11111111111111,
    "paper": "31",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -604,7 +604,7 @@
    "quantity": "Tab.ext: Bc frac10 <1 [%]",
    "program": 24.814814814814813,
    "paper": "25",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -612,7 +612,7 @@
    "quantity": "Tab.ext: B frac10 <1 [%]",
    "program": 25.555555555555554,
    "paper": "26",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -620,7 +620,7 @@
    "quantity": "Tab.ext: B ratio dip",
    "program": 14.762438107392494,
    "paper": "14.76",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": 1.0
   },
@@ -628,7 +628,7 @@
    "quantity": "Tab.ext: Bc ratio dip",
    "program": 14.973722229556772,
    "paper": "14.97",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": 1.0
   },
@@ -636,7 +636,7 @@
    "quantity": "Tab.ext: C ratio dip",
    "program": 2.0381556699745493,
    "paper": "2.04",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": 1.0
   },
@@ -644,7 +644,7 @@
    "quantity": "Tab.ext: C' ratio dip",
    "program": 3.692902080078626,
    "paper": "3.69",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": 1.0
   },
@@ -652,7 +652,7 @@
    "quantity": "Tab.ext: B rms<1",
    "program": 1.7993628478088555,
    "paper": "1.80",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -660,7 +660,7 @@
    "quantity": "Tab.ext: Bc rms<1",
    "program": 1.2034372209621924,
    "paper": "1.20",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -668,7 +668,7 @@
    "quantity": "Tab.ext: C rms<1",
    "program": 0.20577763782890907,
    "paper": "0.21",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -676,7 +676,7 @@
    "quantity": "Tab.ext: C' rms<1",
    "program": 0.5420864822567326,
    "paper": "0.54",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -684,7 +684,7 @@
    "quantity": "Tab.ext: B rms all",
    "program": 1.8629398294732802,
    "paper": "1.86",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -692,7 +692,7 @@
    "quantity": "Tab.ext: Bc rms all",
    "program": 1.2499959485932168,
    "paper": "1.25",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -700,7 +700,7 @@
    "quantity": "Tab.ext: C rms all",
    "program": 0.9970008180160413,
    "paper": "1.00",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
@@ -708,7 +708,7 @@
    "quantity": "Tab.ext: C' rms all",
    "program": 0.708110006396126,
    "paper": "0.71",
-   "location": "Table 6",
+   "location": "Table 3",
    "found_in_tex": true,
    "agrees": true
   },
