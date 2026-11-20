@@ -99,6 +99,8 @@ W = σ_tot|t₀|/(8π) = Ein(a)·Q₀(a) 的最大值为 3.75（a = 6.8），TOT
 | figures/make_figures.py, figures/make_new_figures.py | 全部图 |
 | compare.py | 程序输出与论文数字逐一比对 |
 
+新增程序的公式推导与数值细节见 [docs/new_programs.pdf](docs/new_programs.pdf)。
+
 运行：`./run_all.sh`；比对：`python3 compare.py output/results.json Regge_eikonal_pp.tex`。
 
 ## 文件

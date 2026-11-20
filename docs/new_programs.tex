@@ -1,0 +1,213 @@
+\documentclass[11pt,a4paper]{ctexart}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage{amsmath,amssymb,bm,booktabs,array}
+\usepackage[colorlinks,linkcolor=blue,urlcolor=blue]{hyperref}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\Ein}{\operatorname{Ein}}
+\newcommand{\GeVt}{\,\mathrm{GeV}^2}
+\newcommand{\GeVm}{\,\mathrm{GeV}^{-2}}
+\setlength{\parskip}{0.3em}
+\title{\texttt{Regge\_eikonal\_pp} 新增程序说明}
+\author{李骥}
+\date{2026 年 11 月}
+\begin{document}
+\maketitle
+
+本说明对应论文 \emph{Regge--eikonal description of high-energy proton--proton elastic scattering} 第
+VI--VIII 节新增的计算，以及仓库 \url{https://github.com/liji20030124/Regge_eikonal_pp} 中的五个新程序。式号与论文一致。
+约定沿用论文第 II、IV 节：
+\begin{equation}
+A(s,t)=2is\int\dd^2b\,e^{i\bm q\cdot\bm b}\,\Gamma(s,b),\qquad
+\sigma_{\rm tot}=\frac{{\rm Im}\,A(s,0)}{s},\qquad
+\frac{\dd\sigma_{\rm el}}{\dd t}=\frac{|A|^2}{16\pi s^2},
+\label{eq:conv}
+\end{equation}
+$t=-\bm q^2$，$1\GeVm=0.3893793721$~mb。数据为 TOTEM 13~TeV 的 290 个 bin（\texttt{data/TOTEM13\_dsdt.csv}）。
+
+\section{运行方式与文件}
+
+\begin{center}\small
+\begin{tabular}{>{\ttfamily}l l l}
+\toprule
+\normalfont 程序 & 论文对应 & 输出（\texttt{output/}） \\
+\midrule
+profile\_inversion.py & 式 (22)--(23)，Fig.~4 & \texttt{profile\_inversion.json}, \texttt{profile\_13TeV.csv}\\
+energy\_blackness.py & 第 VI 节末段 & \texttt{energy\_blackness.json}\\
+kmr\_fits.py & 式 (26)--(28)，Table 4，Fig.~6 & \texttt{kmr\_fits.json}, \texttt{kmr\_M1..M4.npy}\\
+universal\_curves.py & 式 (29)，Fig.~7 & \texttt{universal\_curves.json}, \texttt{universal\_curve.csv}\\
+figures/make\_new\_figures.py & Fig.~4, 6, 7 & \texttt{figures/fig\_profile, fig\_kmr, fig\_universal}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+全部计算由 \texttt{./run\_all.sh} 依次执行；\texttt{compare.py output/results.json Regge\_eikonal\_pp.tex}
+把程序输出与论文中印出的 215 个数字逐一比对（按论文印出的小数位舍入后相等，且该字符串出现在 tex 中），
+当前结果为 0 处不一致。拟合程序 \texttt{kmr\_fits.py} 耗时约 20 分钟，其余程序各在一分钟以内。
+所需库为 numpy、scipy、mpmath、matplotlib（版本见 \texttt{requirements.txt}）。
+
+\section{\texttt{profile\_inversion.py}：由数据反演碰撞参数分布}
+
+\paragraph{反演公式。}由式 (\ref{eq:conv})，$A/(is)=2\int\dd^2b\,e^{i\bm q\cdot\bm b}\Gamma$。对角度积分，
+$\int_0^{2\pi}\dd\phi\,e^{iqb\cos\phi}=2\pi J_0(qb)$，得
+\begin{equation}
+\frac{A}{is}=4\pi\int_0^\infty b\,\dd b\,J_0(qb)\,\Gamma(b).
+\end{equation}
+零阶 Hankel 变换对 $f(q)=2\pi\int_0^\infty b\,\dd b\,J_0(qb)g(b)\Leftrightarrow g(b)=(2\pi)^{-1}\int_0^\infty q\,\dd q\,J_0(qb)f(q)$
+取 $f=A/(2is)$、$g=\Gamma$，并用 $q\,\dd q=\tfrac12\dd|t|$，得论文式 (22)：
+\begin{equation}
+\Gamma(b)=\frac{1}{4\pi}\int_0^\infty q\,\dd q\,J_0(qb)\frac{A}{is}
+=\frac{1}{8\pi}\int_0^\infty\dd|t|\,J_0\big(b\sqrt{|t|}\big)\frac{A}{is}.
+\label{eq:inv}
+\end{equation}
+由于 ${\rm Re}[A/(is)]={\rm Im}A/s$，有 ${\rm Re}\,\Gamma(b)=(8\pi)^{-1}\int\dd|t|\,J_0\,{\rm Im}A/s$。
+
+\paragraph{由 $\dd\sigma/\dd t$ 得到 ${\rm Im}A/s$。}令 $\rho(t)={\rm Re}A/{\rm Im}A$，由式 (\ref{eq:conv})
+$|A|^2/s^2=({\rm Im}A/s)^2(1+\rho^2)=16\pi\,\dd\sigma/\dd t$，故
+\begin{equation}
+\frac{{\rm Im}A}{s}=\pm\left[\frac{16\pi}{1+\rho^2}\frac{\dd\sigma_{\rm el}}{\dd t}\right]^{1/2},
+\end{equation}
+其中 $\dd\sigma/\dd t$ 取 mb/GeV$^2$ 时先除以 0.3893793721 换成 GeV$^{-4}$。符号在 dip（$|t|=0.47\GeVt$）处由正变负，
+这是 Amaldi--Schubert 与 Dremin 的分析采用的假设（论文文献 [19,20]）。
+
+\paragraph{第一个 bin 以下的外推。}$|t|<0.0376\GeVt$ 无数据，用 ${\rm Im}A/s=\sigma_{\rm tot}e^{-B|t|/2}$，
+$\sigma_{\rm tot}=110.6$~mb，$B=20.40\GeVm$（$B$ 定义在 $\dd\sigma/\dd t$ 上，所以振幅取 $B/2$）。外推在第一个 bin 处与数据相差
+0.45\%（\texttt{lowt\_mismatch}=0.995）。
+
+\paragraph{数值积分与 $G_{\rm inel}$。}外推段 200 个点与 290 个数据点（取代表 $|t|$）合并后，用梯形公式计算式 (\ref{eq:inv})，
+$b$ 取 0--3~fm 的 301 个点。$\rho$ 取常数时 $\Gamma={\rm Re}\,\Gamma\,(1-i\rho)$，$|\Gamma|^2=(1+\rho^2)({\rm Re}\,\Gamma)^2$，
+由论文式 (13)
+\begin{equation}
+G_{\rm inel}=2\,{\rm Re}\,\Gamma-(1+\rho^2)({\rm Re}\,\Gamma)^2 ,
+\end{equation}
+其极大值 $1/(1+\rho^2)=0.990$ 在 ${\rm Re}\,\Gamma=1/(1+\rho^2)$ 处取得。
+
+\paragraph{检验与变化。}程序计算 $\sigma_{\rm tot}=2\int\dd^2b\,{\rm Re}\,\Gamma=110.4$~mb 与
+$\sigma_{\rm inel}=\int\dd^2b\,G_{\rm inel}=79.5$~mb，与 TOTEM 的 $110.6\pm3.4$ 和 $79.5\pm1.8$~mb 相符。基准结果
+${\rm Re}\,\Gamma(0)=1.020$，$G_{\rm inel}(0)=0.989$，$\max G_{\rm inel}=0.990$（$b=0.33$~fm）。
+\texttt{variations} 中依次改变：$\sigma_{\rm tot}=114.0$、107.2~mb；$\rho=0$；$\rho(t)=\rho_0(1-|t|/0.47)$（截断在 $\pm\rho_0$）；
+$B=20.60$、20.20$\GeVm$；数据整体乘 1.055、0.945；积分上限截到 $2\GeVt$。结果 ${\rm Re}\,\Gamma(0)$ 在 1.002--1.038，
+中心凹陷深度 $\max G_{\rm inel}-G_{\rm inel}(0)$ 在 $1\times10^{-4}$--$2\times10^{-3}$。
+
+\section{\texttt{energy\_blackness.py}：中心不透明度随能量的变化}
+
+单道高斯模型中 $\Gamma(0)=1-e^{-a}$，$a=\nu/2=H/(8\pi\lambda)$（论文式 (11)--(12)）。由式 (7)，
+$H(s)=H_{\rm ref}e^{\Delta L}$，$\lambda(s)=\lambda_{\rm ref}+\alpha'_PL$，$L=\ln(s/s_{\rm ref})$，故
+\begin{equation}
+a(s)=\frac{H_{\rm ref}\,e^{\Delta L}}{8\pi(\lambda_{\rm ref}+\alpha'_PL)},\qquad
+\Gamma(0)=0.99\iff a=\ln100=4.605 .
+\end{equation}
+set A 取 $\sqrt{s_{\rm ref}}=7$~TeV，$\lambda_{\rm ref}=10\GeVm$，$\nu_{\rm ref}=4$；set B 以 13~TeV 的校准值
+$\lambda=7.384\GeVm$、$\nu=5.066$ 为参考点，两者都取 $\Delta=0.0808$、$\alpha'_P=0.25\GeVm$。程序用 Brent 法在
+$\ln\sqrt s$ 上求根，得到 set A $\sqrt s=7.9\times10^6$~GeV，set B $4.0\times10^6$~GeV；13~TeV 处 $\Gamma(0)$ 为
+0.883 与 0.921（与论文 Table 1 一致）。同时输出 $\dd\ln\sigma_{\rm tot}/\dd\ln s$（中心差分，步长 $10^{-3}$）。
+
+\section{\texttt{universal\_curves.py}：单高斯 eikonal 的单参数曲线}
+
+\paragraph{为什么只依赖 $a$。}由论文式 (16)，$A=8\pi is\lambda F(\lambda|t|,a)$，第一零点满足
+$F(Q_0(a),a)=0$，故 $|t_0|=Q_0(a)/\lambda$；由式 (18)，$\sigma_{\rm tot}=8\pi\lambda\Ein(a)$。于是
+\begin{equation}
+W\equiv\frac{\sigma_{\rm tot}|t_0|}{8\pi}=\frac{8\pi\lambda\Ein(a)}{8\pi}\cdot\frac{Q_0(a)}{\lambda}=\Ein(a)\,Q_0(a),
+\end{equation}
+$\lambda$ 相消（论文式 (29)）。同理 $r=\sigma_{\rm el}/\sigma_{\rm tot}=1-\Ein(2a)/[2\Ein(a)]$（式 (21)）。因此在任何能量、
+任何 $H(s)$、$\lambda(s)$ 下，模型都落在曲线 $(r(a),W(a))$ 上。
+
+\paragraph{黑盘值。}$\Gamma=\theta(R-b)$ 时，$\sigma_{\rm tot}=2\int\dd^2b\,\Gamma=2\pi R^2$，
+$A/(is)=4\pi\int_0^Rb\,\dd b\,J_0(qb)=4\pi RJ_1(qR)/q$，第一零点 $qR=j_{1,1}=3.8317$，$|t_0|=j_{1,1}^2/R^2$，故
+$W=2\pi R^2\cdot j_{1,1}^2/(8\pi R^2)=j_{1,1}^2/4=3.670$。乘以 $8\pi\times0.3894$~mb 即
+$\tau_{\rm BD}=\sigma_{\rm tot}|t_{\rm dip}|=35.9\GeVt$\,mb（Bautista--Dias de Deus）。
+
+\paragraph{数值方法。}$\Ein(a)$ 与 $F(Q,a)=\sum_{n\ge1}(-1)^{n+1}a^ne^{-Q/n}/(n!\,n)$ 取到 $n=400$；在 $Q\in(0.01,80)$
+的 8000 点网格上找第一次变号，再用 Brent 法求 $Q_0$。$a$ 限制在 $0.05\le a\le20$：$a$ 更大时交错级数的项达到
+$e^{a}$ 量级，双精度相消误差不可忽略。$W$ 的极大值用有界一维极小化求得。
+
+\paragraph{结果。}$W$ 从 $a=0.05$ 的 0.44 增至 $a=6.8$ 处的极大值 3.75（此处 $r=0.361$），之后趋向 3.67。
+数据 $W=\sigma_{\rm tot}|t_{\rm dip}|/(8\pi)$，$\sigma_{\rm tot}=110.6\pm3.4$~mb，$|t_{\rm dip}|=0.47\pm0.011\GeVt$
+（统计 0.004 与系统 0.01 平方和），相对误差平方和传递得 $W=5.31\pm0.20$，比极大值高
+$(5.31-3.75)/0.20=7.7$ 个标准差。$r=0.281\pm0.009$ 对应 $W=3.52$--3.60，set B 为 3.57。
+
+\section{\texttt{kmr\_fits.py}：KMR 形状因子、Odderon 与两道 eikonal}
+
+\paragraph{Born 振幅。}对衍射本征态 $i,k=1,2$（$\gamma_{1,2}=1\pm\gamma$），$|t|\ge0$：
+\begin{equation}
+\frac{A_{B,ik}}{is}=\gamma_i\gamma_k\Big[H\,e^{-i\pi(\Delta-\alpha'_P|t|)/2}e^{-\alpha'_PL|t|}F_i F_k-iH_Oe^{-b_O|t|}\Big],\quad
+F_i=\exp\!\big[-(b_i(c_i+|t|))^{d_i}+(b_ic_i)^{d_i}\big],
+\end{equation}
+$L=\ln(s/1\GeVt)$，$\sqrt s=13$~TeV。Pomeron 相位来自论文式 (5) 的信号因子；Odderon 项为 $-iH_O$，即对 $A$ 贡献实部
+$sH_O$，$H_O>0$ 使 $\rho$ 增大。
+
+\paragraph{opacity 与振幅。}由论文式 (9) 与 $\chi=i\Omega/2$，
+$\Omega=-2i\chi=-\tfrac{i}{s}\int\frac{\dd^2q}{(2\pi)^2}e^{-i\bm q\cdot\bm b}A_B$；角度积分后
+\begin{equation}
+\Omega_{ik}(b)=\frac{1}{2\pi}\int_0^\infty q\,\dd q\,J_0(qb)\frac{A_{B,ik}}{is}=\frac{1}{4\pi}\int_0^\infty\dd|t|\,J_0\big(b\sqrt{|t|}\big)\frac{A_{B,ik}}{is}.
+\end{equation}
+两道 profile 与非弹性重叠为
+$\langle\Gamma\rangle=\tfrac14\sum_{ik}(1-e^{-\Omega_{ik}/2})$，$G_{\rm inel}=\tfrac14\sum_{ik}(1-e^{-{\rm Re}\,\Omega_{ik}})$
+（$|S_{ik}|^2=e^{-{\rm Re}\,\Omega_{ik}}$），振幅 $A/(is)=4\pi\int b\,\dd b\,J_0(qb)\langle\Gamma\rangle$。由此
+$\sigma_{\rm tot}=2\int\dd^2b\,{\rm Re}\langle\Gamma\rangle$，$\sigma_{\rm el}=\int\dd^2b\,|\langle\Gamma\rangle|^2$，
+$\rho=-{\rm Im}[A/(is)]/{\rm Re}[A/(is)]$（$t=0$）。单道模型取 $\gamma=0$、$F_1=F_2$。
+
+\paragraph{数值实现。}两个 Hankel 变换都用 Gauss--Legendre 求积并预先存成矩阵：$|t|\to b$ 用 900 点、$|t|\le40\GeVt$；
+$b\to|t|$ 用 1000 点、$b\le35\,\mathrm{GeV}^{-1}$（约 6.9~fm）。每个 bin 的平均值用 6 点 Gauss--Legendre。
+
+\paragraph{拟合量。}残差向量为
+\begin{equation}
+\left\{\frac{\langle\dd\sigma/\dd t\rangle_j-y_j}{\epsilon_j}\right\}_{j=1}^{290}\cup
+\left\{\frac{\sigma_{\rm tot}-110.6}{3.4},\ \frac{\rho-0.09}{0.01}\right\},\qquad
+\epsilon_j=\sqrt{\epsilon_{{\rm stat},j}^2+\epsilon_{{\rm syst},j}^2+(0.03\,y_j)^2}.
+\end{equation}
+3\% 的模型误差（环境变量 \texttt{FLOOR}）防止 0.2--0.5\% 误差的低 $|t|$ bin 主导拟合；系统误差的关联不使用，归一化固定为 1，
+所以 $\chi^2$ 只用来给模型排序。用 \texttt{scipy.optimize.least\_squares}（有界，\texttt{x\_scale='jac'}）。
+
+\paragraph{参数、边界与起点。}
+\begin{center}\small
+\begin{tabular}{lccccccccccc}
+\toprule
+ & $H$ & $b_i$ & $c_i$ & $d_i$ & $\alpha'_P$ & $\Delta$ & $H_O$ & $b_O$ & $\gamma$\\
+\midrule
+起点（KMR） & 700 & 10, 4.9 & 0.233, 0.52 & 0.462, 0.47 & 0.052 & 0.13 & 0 & 6 & 0.56\\
+下界 & 50 & 0.5 & 0.01 & 0.2 & 0 & 0 & $-200$ & 0.5 & 0\\
+上界 & 5000 & 20 & 3 & 1.2 & 0.4 & 0.3 & 200 & 30 & 0.95\\
+\bottomrule
+\end{tabular}
+\end{center}
+M1 自由参数 $H,b_1,c_1,d_1,\alpha'_P,\Delta$；M2 加 $b_2,c_2,d_2,\gamma$；M3 为 M1 加 $H_O,b_O$；M4 全部 12 个。
+\texttt{NSEED}=4 个起点：第 0 个为 KMR 值，其余乘以 $1+0.15\,\xi$（$\xi$ 为标准正态，种子 200+$k$）；有 Odderon 时 $H_O$ 起点依次取
+0、5、$-5$、15。取 $\chi^2$ 最小者。M1、M2 四个起点给出同一极小，M3 三个，M4 两个（另一极小 $\chi^2=548$）。
+
+\paragraph{输出的诊断量。}\texttt{tdip}、\texttt{tbump}、\texttt{R}：在 $0.25$--$1\GeVt$ 的 1501 点网格上找第一个局部极小及其后的极大；
+\texttt{B}：$0.04\le|t|\le0.2\GeVt$ 的 bin 平均值做等权 $\ln$ 线性拟合的斜率（与论文附录 B 对数据的做法相同）；
+\texttt{rms\_log}、\texttt{rms\_log\_lt1}：$\ln(\text{模型}/\text{数据})$ 的均方根；\texttt{frac10\_lt1}：$|t|<1$ 内偏差小于 10\% 的 bin 比例；
+\texttt{chi2\_regions}：$|t|<0.3$、0.3--0.8、$>0.8$ 三段的 $\chi^2$。
+
+\paragraph{结果（论文 Table 4）。}
+\begin{center}\small
+\begin{tabular}{lcccccc}
+\toprule
+ & $\sigma_{\rm tot}$ [mb] & $\rho$ & 第一极小 [GeV$^2$] & 极大/极小 & ${\rm Re}\,\Gamma(0)$ & $\chi^2_{\dd\sigma}$\\
+\midrule
+M1 Pomeron，单道 & 106.6 & 0.102 & 0.476 & 1.99 & 0.951 & 4569\\
+M2 Pomeron，两道 & 103.7 & 0.098 & 0.469 & 1.89 & 0.971 & 733\\
+M3 P+Odderon，单道 & 96.6 & 0.004 & 0.468 & 2.00 & 0.934 & 2469\\
+M4 P+Odderon，两道 & 106.1 & 0.188 & 0.470 & 1.75 & 1.013 & 71\\
+TOTEM & $110.6\pm3.4$ & 0.09--0.10 & 0.468 & 1.772 & $1.02\pm0.02$ & --\\
+\bottomrule
+\end{tabular}
+\end{center}
+所有拟合中 $\alpha'_P$ 趋于 0（M3 为 $0.006\GeVm$，其余小于 $10^{-16}$）：单一能量下 $\alpha'_PL$ 与 $b_i$ 简并；$b_1$（以及两道模型的 $b_2$）达到上界 20。
+在 M4 极小处令 $H_O=0$，得 $\rho=0.161$、第一极小 $0.418\GeVt$、比值 1.55，用以区分两项对 $\rho$ 的贡献。
+
+\section{\texttt{figures/make\_new\_figures.py}}
+
+读取 \texttt{output/} 中上述结果并画图：Fig.~4（set A、B 的 $\Gamma$、$G_{\rm inel}$ 与数据反演的 ${\rm Re}\,\Gamma$、$G_{\rm inel}$）、
+Fig.~6（290 bin 与 M1--M4，下栏为 bin 平均模型/数据）、Fig.~7（$(r,W)$ 曲线、set B、TOTEM 点与黑盘线）。
+原 \texttt{make\_figures.py} 不再画 Fig.~4，避免覆盖。
+
+\section{方法来源}
+
+反演方法见 Amaldi--Schubert（Nucl.\ Phys.\ B 166, 301 (1980)）与 Dremin（Phys.\ Usp.\ 56, 3 (2013)）；两道 eikonal 为
+Good--Walker 形式；形状因子取自 Khoze--Martin--Ryskin（Phys.\ Lett.\ B 784, 192 (2018)）；$\sigma_{\rm tot}|t_{\rm dip}|$ 为
+Dias de Deus 几何标度变量（Nucl.\ Phys.\ B 59, 231 (1973)），黑盘值见 Bautista--Dias de Deus（arXiv:1212.1764）。
+本仓库新做的是：把反演用于 13~TeV 的 290 个 bin 并给出变化范围；M1--M4 的拟合与 M4 中 $\rho$ 的分解；单高斯 eikonal 中
+$W(a)$ 的上界 3.75 及其与数据的比较。
+
+\end{document}
