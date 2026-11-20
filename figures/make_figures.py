@@ -501,4 +501,4 @@ def fig6():
 if __name__ == "__main__":
     print("set A, 13 TeV: lambda=%.4f GeV^-2, nu=%.5f, sigma_tot=%.2f mb" % (lA, nA, 8 * np.pi * lA * Ein(nA / 2) * GEV2_TO_MB))
     print("set B, 13 TeV: lambda=%.5f GeV^-2, nu=%.5f" % (lB, nB))
-    fig1(); fig2_fig3(); fig4(); fig5(); fig6()
+    fig1(); fig2_fig3(); fig5(); fig6()   # Fig. 4 (fig_profile) is drawn by make_new_figures.py

@@ -1,0 +1,24 @@
+M1 seed 0 chi2 4572.1
+M1 seed 1 chi2 4572.1
+M1 seed 2 chi2 4572.1
+M1 seed 3 chi2 4572.1
+M1 Pomeron, one channel {"stot": 106.564, "sel": 26.9147, "rho": 0.1024, "r": 0.2526, "B": 20.2347, "tdip": 0.476, "tbump": 0.6595, "R": 1.9876, "chi2_dsdt": 4569.1371, "chi2_regions": {"lt03": 2815.1995730249455, "dip": 396.54842300458887, "gt08": 1357.3891472646023}, "ReGamma0": 0.9512, "Ginel0": 0.997, "Ginel_max": 0.997, "rms_log": 0.2262, "rms_log_lt1": 0.1186, "N": 1.0, "frac10_lt1": 0.4889, "frac10_all": 0.4655, "chi2_total": 4572.0749, "nfree": 6, "ndf": 286, "label": "Pomeron, one channel", "two": false}
+  params {'H': 437.2066, 'b1': 20.0, 'c1': 0.1539, 'd1': 0.4192, 'b2': 4.9, 'c2': 0.52, 'd2': 0.47, 'aP': 0.0, 'Delta': 0.1005, 'Ho': 0.0, 'bO': 6.0, 'gamma': 0.56, 'N': 1.0}
+M2 seed 0 chi2 737.5
+M2 seed 1 chi2 737.5
+M2 seed 2 chi2 737.5
+M2 seed 3 chi2 737.5
+M2 Pomeron, two channels {"stot": 103.7035, "sel": 27.4853, "rho": 0.0977, "r": 0.265, "B": 19.771, "tdip": 0.469, "tbump": 0.6365, "R": 1.8887, "chi2_dsdt": 732.8339, "chi2_regions": {"lt03": 595.1381839282524, "dip": 63.03320148480287, "gt08": 74.66250908925997}, "ReGamma0": 0.9713, "Ginel0": 0.9981, "Ginel_max": 0.9981, "rms_log": 0.0814, "rms_log_lt1": 0.0529, "N": 1.0, "frac10_lt1": 0.9185, "frac10_all": 0.9, "chi2_total": 737.5361, "nfree": 10, "ndf": 282, "label": "Pomeron, two channels", "two": true}
+  params {'H': 528.6561, 'b1': 20.0, 'c1': 0.24, 'd1': 0.4821, 'b2': 19.9996, 'c2': 0.5265, 'd2': 0.3978, 'aP': 0.0, 'Delta': 0.1131, 'Ho': 0.0, 'bO': 6.0, 'gamma': 0.403, 'N': 1.0}
+M3 seed 0 chi2 2560.1
+M3 seed 1 chi2 2560.1
+M3 seed 2 chi2 4402.7
+M3 seed 3 chi2 2560.1
+M3 Pomeron + Odderon, one channel {"stot": 96.5606, "sel": 24.5811, "rho": 0.004, "r": 0.2546, "B": 19.1979, "tdip": 0.4675, "tbump": 0.6355, "R": 2.0005, "chi2_dsdt": 2469.0568, "chi2_regions": {"lt03": 1857.0791520596622, "dip": 154.98686222606887, "gt08": 456.9907894236356}, "ReGamma0": 0.9341, "Ginel0": 0.9927, "Ginel_max": 0.9927, "rms_log": 0.2171, "rms_log_lt1": 0.0964, "N": 1.0, "frac10_lt1": 0.7481, "frac10_all": 0.731, "chi2_total": 2560.1459, "nfree": 8, "ndf": 284, "label": "Pomeron + Odderon, one channel", "two": false}
+  params {'H': 385.8898, 'b1': 20.0, 'c1': 0.2907, 'd1': 0.4755, 'b2': 4.9, 'c2': 0.52, 'd2': 0.47, 'aP': 0.0063, 'Delta': 0.0522, 'Ho': -56.6716, 'bO': 2.541, 'gamma': 0.56, 'N': 1.0}
+M4 seed 0 chi2 548.2
+M4 seed 1 chi2 169.4
+M4 seed 2 chi2 169.4
+M4 seed 3 chi2 548.2
+M4 Pomeron + Odderon, two channels {"stot": 106.139, "sel": 29.5276, "rho": 0.1881, "r": 0.2782, "B": 20.0779, "tdip": 0.47, "tbump": 0.634, "R": 1.7542, "chi2_dsdt": 71.3905, "chi2_regions": {"lt03": 49.773208675556646, "dip": 7.185241381688515, "gt08": 14.432081072304108}, "ReGamma0": 1.0135, "Ginel0": 0.989, "Ginel_max": 0.989, "rms_log": 0.1224, "rms_log_lt1": 0.016, "N": 1.0, "frac10_lt1": 1.0, "frac10_all": 0.9828, "chi2_total": 169.3924, "nfree": 12, "ndf": 280, "label": "Pomeron + Odderon, two channels", "two": true}
+  params {'H': 429.6881, 'b1': 20.0, 'c1': 0.4766, 'd1': 0.6386, 'b2': 20.0, 'c2': 1.3881, 'd2': 0.5168, 'aP': 0.0, 'Delta': 0.1609, 'Ho': 55.4434, 'bO': 2.0652, 'gamma': 0.1033, 'N': 1.0}

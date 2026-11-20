@@ -731,10 +731,10 @@
   {
    "quantity": "Sec.VII: check numeric vs series",
    "program": 4.714418992367598,
-   "paper": "6",
+   "paper": "5",
    "location": "Sec. VII (x1e-12)",
    "found_in_tex": true,
-   "agrees": false
+   "agrees": true
   },
   {
    "quantity": "GW g=0.2 lambda",
@@ -877,6 +877,654 @@
    "program": 0.19768065417556063,
    "paper": "0.198",
    "location": "Sec. VII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "profile: Re Gamma(0)",
+   "program": 1.0201693993200496,
+   "paper": "1.020",
+   "location": "Eq. (23)",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "profile: G_inel(0)",
+   "program": 0.9891857392979782,
+   "paper": "0.989",
+   "location": "Eq. (23)",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "profile: max G_inel",
+   "program": 0.990098242798797,
+   "paper": "0.990",
+   "location": "Eq. (23)",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "profile: b at max [fm]",
+   "program": 0.33,
+   "paper": "0.33",
+   "location": "Eq. (23)",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "profile: sigma_tot [mb]",
+   "program": 110.40846250825545,
+   "paper": "110.4",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "profile: sigma_inel [mb]",
+   "program": 79.54258769541808,
+   "paper": "79.5",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "profile: min Re Gamma(0) over variations",
+   "program": 1.001732411066324,
+   "paper": "1.002",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "profile: max Re Gamma(0) over variations",
+   "program": 1.0381059671130086,
+   "paper": "1.038",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "A: sqrt(s) [1e6 GeV] at Gamma(0)=0.99",
+   "program": 7.859559418731367,
+   "paper": "8",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "B: sqrt(s) [1e6 GeV] at Gamma(0)=0.99",
+   "program": 3.990939508376509,
+   "paper": "4",
+   "location": "Sec. VI",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "W measured",
+   "program": 5.311781288762127,
+   "paper": "5.31",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "W measured, uncertainty",
+   "program": 0.20366777086647417,
+   "paper": "0.20",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "W maximum of Gaussian eikonal",
+   "program": 3.7529201180514327,
+   "paper": "3.75",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "a at W maximum",
+   "program": 6.813606655510433,
+   "paper": "6.8",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "r at W maximum",
+   "program": 0.36119250010515536,
+   "paper": "0.361",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "(W_meas - W_max)/dW",
+   "program": 7.653941338282203,
+   "paper": "7.7",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "W black disk j11^2/4",
+   "program": 3.670492660530974,
+   "paper": "3.67",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "W at a = 0.05",
+   "program": 0.43761460314587997,
+   "paper": "0.44",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "W at r = 0.281 - 0.009",
+   "program": 3.523044147773563,
+   "paper": "3.52",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "W at r = 0.281 + 0.009",
+   "program": 3.604255325239366,
+   "paper": "3.60",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "W of set B",
+   "program": 3.565584304510833,
+   "paper": "3.57",
+   "location": "Sec. VIII",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: Delta",
+   "program": 0.10045405184804715,
+   "paper": "0.100",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: sigma_tot",
+   "program": 106.56396975196594,
+   "paper": "106.6",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: sigma_el",
+   "program": 26.91472192892239,
+   "paper": "26.9",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: rho",
+   "program": 0.10236387313273304,
+   "paper": "0.102",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: slope 0.04-0.2",
+   "program": 20.234717172819256,
+   "paper": "20.23",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: first minimum",
+   "program": 0.476,
+   "paper": "0.476",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: following maximum",
+   "program": 0.6595,
+   "paper": "0.659",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: max/min",
+   "program": 1.9876331376949299,
+   "paper": "1.99",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: Re Gamma(0)",
+   "program": 0.9511837959842853,
+   "paper": "0.951",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: rms ln |t|<1",
+   "program": 0.1186467257204975,
+   "paper": "0.119",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: rms ln all",
+   "program": 0.22617855761887104,
+   "paper": "0.226",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: bins within 10% |t|<1 [%]",
+   "program": 48.888888888888886,
+   "paper": "49",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: chi2_dsigma",
+   "program": 4569.137143294136,
+   "paper": "4569",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M1: chi2",
+   "program": 4572.07492665445,
+   "paper": "4572",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: Delta",
+   "program": 0.11306498514386236,
+   "paper": "0.113",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: sigma_tot",
+   "program": 103.70354229713398,
+   "paper": "103.7",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: sigma_el",
+   "program": 27.485305365388257,
+   "paper": "27.5",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: rho",
+   "program": 0.09766735426436161,
+   "paper": "0.098",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: slope 0.04-0.2",
+   "program": 19.770992765257873,
+   "paper": "19.77",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: first minimum",
+   "program": 0.469,
+   "paper": "0.469",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: following maximum",
+   "program": 0.6365000000000001,
+   "paper": "0.637",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: max/min",
+   "program": 1.8887434444067581,
+   "paper": "1.89",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: Re Gamma(0)",
+   "program": 0.9712986752100725,
+   "paper": "0.971",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: rms ln |t|<1",
+   "program": 0.052943931405338575,
+   "paper": "0.053",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: rms ln all",
+   "program": 0.08144758326464306,
+   "paper": "0.081",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: bins within 10% |t|<1 [%]",
+   "program": 91.85185185185185,
+   "paper": "92",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: chi2_dsigma",
+   "program": 732.8338945023152,
+   "paper": "733",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: chi2",
+   "program": 737.5360622188394,
+   "paper": "738",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: Delta",
+   "program": 0.052222653845393346,
+   "paper": "0.052",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: sigma_tot",
+   "program": 96.56056382615446,
+   "paper": "96.6",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: sigma_el",
+   "program": 24.581140569237704,
+   "paper": "24.6",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: rho",
+   "program": 0.0039543876196720985,
+   "paper": "0.004",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: slope 0.04-0.2",
+   "program": 19.19786606854074,
+   "paper": "19.20",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: first minimum",
+   "program": 0.4675,
+   "paper": "0.468",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: following maximum",
+   "program": 0.6355,
+   "paper": "0.635",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: max/min",
+   "program": 2.000500876323277,
+   "paper": "2.00",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: Re Gamma(0)",
+   "program": 0.9340796805773656,
+   "paper": "0.934",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: rms ln |t|<1",
+   "program": 0.09639555037298168,
+   "paper": "0.096",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: rms ln all",
+   "program": 0.2171144865103765,
+   "paper": "0.217",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: bins within 10% |t|<1 [%]",
+   "program": 74.81481481481481,
+   "paper": "75",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: chi2_dsigma",
+   "program": 2469.0568037093667,
+   "paper": "2469",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: chi2",
+   "program": 2560.145949787617,
+   "paper": "2560",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: Delta",
+   "program": 0.1609346960426033,
+   "paper": "0.161",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: sigma_tot",
+   "program": 106.13897760490677,
+   "paper": "106.1",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: sigma_el",
+   "program": 29.527599539718814,
+   "paper": "29.5",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: rho",
+   "program": 0.18812255744786968,
+   "paper": "0.188",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: slope 0.04-0.2",
+   "program": 20.07790688371676,
+   "paper": "20.08",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: first minimum",
+   "program": 0.47,
+   "paper": "0.470",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: following maximum",
+   "program": 0.634,
+   "paper": "0.634",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: max/min",
+   "program": 1.754222279890256,
+   "paper": "1.75",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: Re Gamma(0)",
+   "program": 1.013477307999919,
+   "paper": "1.013",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: rms ln |t|<1",
+   "program": 0.01604315480486398,
+   "paper": "0.016",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: rms ln all",
+   "program": 0.12244713234602782,
+   "paper": "0.122",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: bins within 10% |t|<1 [%]",
+   "program": 100.0,
+   "paper": "100",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: chi2_dsigma",
+   "program": 71.39053112954926,
+   "paper": "71",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: chi2",
+   "program": 169.39240957161635,
+   "paper": "169",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M2: gamma",
+   "program": 0.403039207695079,
+   "paper": "0.403",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: gamma",
+   "program": 0.10325170886772686,
+   "paper": "0.103",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M3: H_O [GeV^-2]",
+   "program": -56.67164328252704,
+   "paper": "-56.7",
+   "location": "Table 4",
+   "found_in_tex": true,
+   "agrees": true
+  },
+  {
+   "quantity": "M4: H_O [GeV^-2]",
+   "program": 55.443430440657345,
+   "paper": "55.4",
+   "location": "Table 4",
    "found_in_tex": true,
    "agrees": true
   },

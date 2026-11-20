@@ -112,7 +112,7 @@ paper += [
  ('Tab.ext: C rms all', _rms('output', 9, False), '1.00', 'Table 6'), ('Tab.ext: C\' rms all', _rms('output_t4', 9, False), '0.71', 'Table 6'),
  ('Sec.VII: C overshoot min', EX['C']['desc']['ratio_min_above1'], '1.9', 'Sec. VII'),
  ('Sec.VII: C overshoot max', EX['C']['desc']['ratio_max_above1'], '739', 'Sec. VII'),
- ('Sec.VII: check numeric vs series', EX['check_numeric_vs_series_maxrel']*1e12, '6', 'Sec. VII (x1e-12)'),
+ ('Sec.VII: check numeric vs series', EX['check_numeric_vs_series_maxrel']*1e12, '5', 'Sec. VII (x1e-12)'),
 ]
 GW = json.load(open(sys.argv[1].replace('results.json', 'gw_gamma_scan.json')))
 GWfit = json.load(open(sys.argv[1].replace('results.json', 'goodwalker.json')))
@@ -124,6 +124,54 @@ for g, lam, nu, smd, tmin, rd in [(0.2,'7.35','5.25','0.71','0.311','16.9'), (0.
 paper += [('GW Pumplin max ratio', max(x['pump'] for x in GW), '0.92', 'Sec. VII') ,
           ('GW best-fit gamma', GWfit['gamma'], '0', 'Sec. VII'),
           ('asymptotic coefficient 8 pi alpha Delta [mb]', 8*3.141592653589793*0.25*0.0808*0.3893793721, '0.198', 'Sec. VII')]
+# Secs. VI-VIII: profile reconstruction (Eqs. (22)-(23)), Gamma(0) energy dependence, models M1-M4 (Table 4),
+# one-parameter curve W(a) (Eq. (29)); produced by profile_inversion.py, energy_blackness.py, kmr_fits.py,
+# universal_curves.py
+import os as _os
+_od = _os.path.dirname(sys.argv[1])
+if _os.path.exists(_os.path.join(_od, 'kmr_fits.json')):
+    PI = json.load(open(_os.path.join(_od, 'profile_inversion.json')))
+    EB = json.load(open(_os.path.join(_od, 'energy_blackness.json')))
+    KF = json.load(open(_os.path.join(_od, 'kmr_fits.json')))
+    UC = json.load(open(_os.path.join(_od, 'universal_curves.json')))
+    pb, pv = PI['base'], PI['variations'].values()
+    paper += [('profile: Re Gamma(0)', pb['ReGamma0'], '1.020', 'Eq. (23)'),
+              ('profile: G_inel(0)', pb['Ginel0'], '0.989', 'Eq. (23)'),
+              ('profile: max G_inel', pb['Ginel_max'], '0.990', 'Eq. (23)'),
+              ('profile: b at max [fm]', pb['b_at_max_fm'], '0.33', 'Eq. (23)'),
+              ('profile: sigma_tot [mb]', PI['check']['stot_mb'], '110.4', 'Sec. VI'),
+              ('profile: sigma_inel [mb]', PI['check']['sinel_mb'], '79.5', 'Sec. VI'),
+              ('profile: min Re Gamma(0) over variations', min(v['ReGamma0'] for v in pv), '1.002', 'Sec. VI'),
+              ('profile: max Re Gamma(0) over variations', max(v['ReGamma0'] for v in pv), '1.038', 'Sec. VI'),
+              ('A: sqrt(s) [1e6 GeV] at Gamma(0)=0.99', EB['A']['sqrts_Gamma0_0p99'] / 1e6, '8', 'Sec. VI'),
+              ('B: sqrt(s) [1e6 GeV] at Gamma(0)=0.99', EB['B']['sqrts_Gamma0_0p99'] / 1e6, '4', 'Sec. VI'),
+              ('W measured', UC['W_meas'][0], '5.31', 'Sec. VIII'),
+              ('W measured, uncertainty', UC['W_meas'][1], '0.20', 'Sec. VIII'),
+              ('W maximum of Gaussian eikonal', UC['W_max'], '3.75', 'Sec. VIII'),
+              ('a at W maximum', UC['a_at_W_max'], '6.8', 'Sec. VIII'),
+              ('r at W maximum', UC['r_at_W_max'], '0.361', 'Sec. VIII'),
+              ('(W_meas - W_max)/dW', -UC['pull_W_max'], '7.7', 'Sec. VIII'),
+              ('W black disk j11^2/4', UC['W_black_disk'], '3.67', 'Sec. VIII'),
+              ('W at a = 0.05', UC['W_small_a'], '0.44', 'Sec. VIII'),
+              ('W at r = 0.281 - 0.009', UC['W_band_r'][0], '3.52', 'Sec. VIII'),
+              ('W at r = 0.281 + 0.009', UC['W_band_r'][1], '3.60', 'Sec. VIII'),
+              ('W of set B', UC['W_at_a_r'], '3.57', 'Sec. VIII')]
+    t4 = {'M1': ['0.100', '106.6', '26.9', '0.102', '20.23', '0.476', '0.659', '1.99', '0.951', '0.119', '0.226', '49', '4569', '4572'],
+          'M2': ['0.113', '103.7', '27.5', '0.098', '19.77', '0.469', '0.637', '1.89', '0.971', '0.053', '0.081', '92', '733', '738'],
+          'M3': ['0.052', '96.6', '24.6', '0.004', '19.20', '0.468', '0.635', '2.00', '0.934', '0.096', '0.217', '75', '2469', '2560'],
+          'M4': ['0.161', '106.1', '29.5', '0.188', '20.08', '0.470', '0.634', '1.75', '1.013', '0.016', '0.122', '100', '71', '169']}
+    for m, strs in t4.items():
+        k = KF[m]
+        vals = [k['params']['Delta'], k['stot'], k['sel'], k['rho'], k['B'], k['tdip'], k['tbump'], k['R'], k['ReGamma0'],
+                k['rms_log_lt1'], k['rms_log'], 100 * k['frac10_lt1'], k['chi2_dsdt'], k['chi2_total']]
+        names = ['Delta', 'sigma_tot', 'sigma_el', 'rho', 'slope 0.04-0.2', 'first minimum', 'following maximum', 'max/min',
+                 'Re Gamma(0)', 'rms ln |t|<1', 'rms ln all', 'bins within 10% |t|<1 [%]', 'chi2_dsigma', 'chi2']
+        paper += [(f'{m}: {n}', v, s_, 'Table 4') for n, v, s_ in zip(names, vals, strs)]
+    paper += [('M2: gamma', KF['M2']['params']['gamma'], '0.403', 'Table 4'),
+              ('M4: gamma', KF['M4']['params']['gamma'], '0.103', 'Table 4'),
+              ('M3: H_O [GeV^-2]', KF['M3']['params']['Ho'], '-56.7', 'Table 4'),
+              ('M4: H_O [GeV^-2]', KF['M4']['params']['Ho'], '55.4', 'Table 4')]
+
 for k, (s, key) in enumerate(tab2):
     row = D[k % 6]
     paper.append((f'Table 2: {key} at |t|={row["t"]}', row[key], s, 'Table 2'))

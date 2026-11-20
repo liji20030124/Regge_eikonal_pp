@@ -1,0 +1,241 @@
+quantity                                      program      paper  tex  ok   location
+A: lambda [GeV^-2]                           10.30952    10.3095    Y   Y   Table 1
+A: nu                                         4.28812    4.28812    Y   Y   Table 1
+A: Gamma(0)                                 0.8828219     0.8828    Y   Y   Table 1
+A: H = sigma_tot^Born [mb]                   216.3158     216.32    Y   Y   Table 1
+A: sigma_tot [mb]                            139.2336     139.23    Y   Y   Table 1
+A: sigma_tot [mb]                            139.2336      139.2    Y   Y   Abstract, Sec. VI
+A: sigma_el [mb]                             36.54022      36.54    Y   Y   Table 1
+A: sigma_inel [mb]                           102.6934     102.69    Y   Y   Table 1
+A: B(0) [GeV^-2]                             25.53363      25.53    Y   Y   Table 1
+A: |t_0| [GeV^2]                            0.2441574     0.2442    Y   Y   Table 1
+A: |t_0| [GeV^2]                            0.2441574      0.244    Y   Y   Abstract, Sec. VI
+A: 2nd max [GeV^2]                          0.3570787      0.357    Y   Y   Sec. VI
+A: sigma_tot - TOTEM [mb]                     28.6336       28.6    Y   Y   Sec. VI
+A: relative excess [%]                       25.88933       25.9    Y   Y   Sec. VI
+A: sigma_inel - TOTEM [mb]                   23.19338       23.2    Y   Y   Sec. VI
+A: sigma_el - TOTEM [mb]                     5.540221        5.5    Y   Y   Sec. VI
+A: (H-exp)/(eik-exp)                         3.692018        3.7    Y   Y   Sec. VI
+A: Born ratio nu/8                           0.536015      0.536    Y   Y   Sec. VI, VIII
+A: eikonal sigma_el/sigma_tot               0.2624382      0.262    Y   Y   Sec. VI
+A: Gamma(0)                                 0.8828219      0.883    Y   Y   Sec. VI
+rho_Born = tan(pi Delta/2)                  0.1276063       0.13    Y   Y   Sec. III, VII
+B: lambda [GeV^-2]                           7.384337    7.38434    Y   Y   Table 1
+B: nu                                        5.066083    5.06608    Y   Y   Table 1
+B: Gamma(0)                                 0.9205829     0.9206    Y   Y   Table 1
+B: Gamma(0)                                 0.9205829      0.921    Y   Y   Sec. VI
+B: sigma_tot [mb] (input)                       110.6     110.60    Y   Y   Table 1
+B: sigma_el [mb] (input)                      31.0786      31.08    Y   Y   Table 1
+B: sigma_inel [mb] (input)                    79.5214      79.52    Y   Y   Table 1
+B: B(0) [GeV^-2]                             18.83138      18.83    Y   Y   Table 1, Sec. VI
+B: |t_0| [GeV^2]                             0.315492     0.3155    Y   Y   Table 1
+B: |t_0| [GeV^2]                             0.315492      0.315    Y   Y   Abstract, Sec. VI-VIII
+B: 2nd max [GeV^2]                          0.4696366      0.470    Y   Y   Sec. VI
+B/TOTEM at 0.468                             14.76244       14.8    Y   Y   Sec. VI
+B/TOTEM at 0.632                             4.026523        4.0    Y   Y   Sec. VI
+B/TOTEM at 0.2: deficit [%]                  34.57861         35    Y   Y   Sec. VI
+A: min G_inel(0)                            0.9862693       0.98    Y   Y   Sec. VI (lower bound)
+Born-limit sigma_tot/H (nu=1e-4)            0.9999875  0.9999875    Y   Y   Sec. V
+App.B: data slope 0.04-0.2                   20.38871      20.39    Y   Y   App. B
+App.B: set B slope (bin avg)                 23.06073      23.06    Y   Y   App. B
+App.B: set A slope (bin avg)                 34.98022      34.98    Y   Y   App. B
+App.B: n bins in slope fit                         94         94    Y   Y   App. B
+App.B: data bump/dip ratio                   1.771804      1.772    Y   Y   App. B
+App.B: B within 10% [%]                       23.7931         24    Y   Y   App. B
+App.B: A within 10% [%]                      7.241379          7    Y   Y   App. B
+App.B: B within 5% up to |t|                  0.06814      0.068    Y   Y   App. B
+App.A: max point-vs-bin, all bins [%]        97.85614         98    Y   Y   App. A
+Sec.VII: Ac rho                            0.09504907     0.0950    Y   Y   Sec. VII
+Sec.VII: Ac rho (dispersion)               0.09500878     0.0950    Y   Y   Sec. VII
+Tab.ext: Bc lambda                            7.51605      7.516    Y   Y   Table 6
+Tab.ext: Bc nu                               4.909489      4.909    Y   Y   Table 6
+Tab.ext: Bc rho                             0.0978803      0.098    Y   Y   Table 6
+Tab.ext: Bc B0                               19.06173      19.06    Y   Y   Table 6
+Tab.ext: Bc slope                             23.2138      23.21    Y   Y   Table 6
+Tab.ext: Bc min                                0.3168      0.317    Y   Y   Table 6
+Tab.ext: Bc max                                0.4596      0.460    Y   Y   Table 6
+Tab.ext: Bc R                                4.665206       4.67    Y   Y   Table 6
+Tab.ext: C lam1                              8.947156      8.947    Y   Y   Table 6
+Tab.ext: C lam2                              1.982928      1.983    Y   Y   Table 6
+Tab.ext: C nu1                               3.248281      3.248    Y   Y   Table 6
+Tab.ext: C nu2                               6.353329      6.353    Y   Y   Table 6
+Tab.ext: C rho                              0.1029801      0.103    Y   Y   Table 6
+Tab.ext: C B0                                 19.8846      19.88    Y   Y   Table 6
+Tab.ext: C slope                             21.14291      21.14    Y   Y   Table 6
+Tab.ext: C frac10 <1 [%]                     47.03704         47    Y   Y   Table 6
+Tab.ext: C' lam1                             8.783956      8.784    Y   Y   Table 6
+Tab.ext: C' lam2                             2.848643      2.849    Y   Y   Table 6
+Tab.ext: C' nu1                              3.279303      3.279    Y   Y   Table 6
+Tab.ext: C' nu2                              3.622591      3.623    Y   Y   Table 6
+Tab.ext: C' rho                             0.1001352      0.100    Y   Y   Table 6
+Tab.ext: C' B0                               19.66808      19.67    Y   Y   Table 6
+Tab.ext: C' slope                            21.60617      21.61    Y   Y   Table 6
+Tab.ext: C' min                                0.3968      0.397    Y   Y   Table 6
+Tab.ext: C' max                                0.5312      0.531    Y   Y   Table 6
+Tab.ext: C' R                                  1.5562       1.56    Y   Y   Table 6
+Tab.ext: C' frac10 <1 [%]                    31.11111         31    Y   Y   Table 6
+Tab.ext: Bc frac10 <1 [%]                    24.81481         25    Y   Y   Table 6
+Tab.ext: B frac10 <1 [%]                     25.55556         26    Y   Y   Table 6
+Tab.ext: B ratio dip                         14.76244      14.76    Y   Y   Table 6
+Tab.ext: Bc ratio dip                        14.97372      14.97    Y   Y   Table 6
+Tab.ext: C ratio dip                         2.038156       2.04    Y   Y   Table 6
+Tab.ext: C' ratio dip                        3.692902       3.69    Y   Y   Table 6
+Tab.ext: B rms<1                             1.799363       1.80    Y   Y   Table 6
+Tab.ext: Bc rms<1                            1.203437       1.20    Y   Y   Table 6
+Tab.ext: C rms<1                            0.2057776       0.21    Y   Y   Table 6
+Tab.ext: C' rms<1                           0.5420865       0.54    Y   Y   Table 6
+Tab.ext: B rms all                            1.86294       1.86    Y   Y   Table 6
+Tab.ext: Bc rms all                          1.249996       1.25    Y   Y   Table 6
+Tab.ext: C rms all                          0.9970008       1.00    Y   Y   Table 6
+Tab.ext: C' rms all                           0.70811       0.71    Y   Y   Table 6
+Sec.VII: C overshoot min                     1.874185        1.9    Y   Y   Sec. VII
+Sec.VII: C overshoot max                     739.3149        739    Y   Y   Sec. VII
+Sec.VII: check numeric vs series             4.714419          5    Y   Y   Sec. VII (x1e-12)
+GW g=0.2 lambda                              7.354613       7.35    Y   Y   Sec. VII
+GW g=0.2 nu                                  5.254008       5.25    Y   Y   Sec. VII
+GW g=0.2 sigma_lowmass                      0.7053681       0.71    Y   Y   Sec. VII
+GW g=0.2 t_min                                 0.3114      0.311    Y   Y   Sec. VII
+GW g=0.2 ratio dip                           16.91372       16.9    Y   Y   Sec. VII
+GW g=0.4 lambda                              6.868046       6.87    Y   Y   Sec. VII
+GW g=0.4 nu                                  6.584143       6.58    Y   Y   Sec. VII
+GW g=0.4 sigma_lowmass                       2.712598       2.71    Y   Y   Sec. VII
+GW g=0.4 t_min                                  0.298      0.298    Y   Y   Sec. VII
+GW g=0.4 ratio dip                           22.60001       22.6    Y   Y   Sec. VII
+GW g=0.6 lambda                              6.064637       6.06    Y   Y   Sec. VII
+GW g=0.6 nu                                  10.45851      10.46    Y   Y   Sec. VII
+GW g=0.6 sigma_lowmass                        5.82024       5.82    Y   Y   Sec. VII
+GW g=0.6 t_min                                 0.2828      0.283    Y   Y   Sec. VII
+GW g=0.6 ratio dip                           29.74205       29.7    Y   Y   Sec. VII
+GW Pumplin max ratio                        0.9166478       0.92    Y   Y   Sec. VII
+GW best-fit gamma                         5.32018e-06          0    Y   Y   Sec. VII
+asymptotic coefficient 8 pi alpha Delta [mb]      0.1976807      0.198    Y   Y   Sec. VII
+profile: Re Gamma(0)                         1.020169      1.020    Y   Y   Eq. (23)
+profile: G_inel(0)                          0.9891857      0.989    Y   Y   Eq. (23)
+profile: max G_inel                         0.9900982      0.990    Y   Y   Eq. (23)
+profile: b at max [fm]                           0.33       0.33    Y   Y   Eq. (23)
+profile: sigma_tot [mb]                      110.4085      110.4    Y   Y   Sec. VI
+profile: sigma_inel [mb]                     79.54259       79.5    Y   Y   Sec. VI
+profile: min Re Gamma(0) over variations       1.001732      1.002    Y   Y   Sec. VI
+profile: max Re Gamma(0) over variations       1.038106      1.038    Y   Y   Sec. VI
+A: sqrt(s) [1e6 GeV] at Gamma(0)=0.99        7.859559          8    Y   Y   Sec. VI
+B: sqrt(s) [1e6 GeV] at Gamma(0)=0.99         3.99094          4    Y   Y   Sec. VI
+W measured                                   5.311781       5.31    Y   Y   Sec. VIII
+W measured, uncertainty                     0.2036678       0.20    Y   Y   Sec. VIII
+W maximum of Gaussian eikonal                 3.75292       3.75    Y   Y   Sec. VIII
+a at W maximum                               6.813607        6.8    Y   Y   Sec. VIII
+r at W maximum                              0.3611925      0.361    Y   Y   Sec. VIII
+(W_meas - W_max)/dW                          7.653941        7.7    Y   Y   Sec. VIII
+W black disk j11^2/4                         3.670493       3.67    Y   Y   Sec. VIII
+W at a = 0.05                               0.4376146       0.44    Y   Y   Sec. VIII
+W at r = 0.281 - 0.009                       3.523044       3.52    Y   Y   Sec. VIII
+W at r = 0.281 + 0.009                       3.604255       3.60    Y   Y   Sec. VIII
+W of set B                                   3.565584       3.57    Y   Y   Sec. VIII
+M1: Delta                                   0.1004541      0.100    Y   Y   Table 4
+M1: sigma_tot                                 106.564      106.6    Y   Y   Table 4
+M1: sigma_el                                 26.91472       26.9    Y   Y   Table 4
+M1: rho                                     0.1023639      0.102    Y   Y   Table 4
+M1: slope 0.04-0.2                           20.23472      20.23    Y   Y   Table 4
+M1: first minimum                               0.476      0.476    Y   Y   Table 4
+M1: following maximum                          0.6595      0.659    Y   Y   Table 4
+M1: max/min                                  1.987633       1.99    Y   Y   Table 4
+M1: Re Gamma(0)                             0.9511838      0.951    Y   Y   Table 4
+M1: rms ln |t|<1                            0.1186467      0.119    Y   Y   Table 4
+M1: rms ln all                              0.2261786      0.226    Y   Y   Table 4
+M1: bins within 10% |t|<1 [%]                48.88889         49    Y   Y   Table 4
+M1: chi2_dsigma                              4569.137       4569    Y   Y   Table 4
+M1: chi2                                     4572.075       4572    Y   Y   Table 4
+M2: Delta                                    0.113065      0.113    Y   Y   Table 4
+M2: sigma_tot                                103.7035      103.7    Y   Y   Table 4
+M2: sigma_el                                 27.48531       27.5    Y   Y   Table 4
+M2: rho                                    0.09766735      0.098    Y   Y   Table 4
+M2: slope 0.04-0.2                           19.77099      19.77    Y   Y   Table 4
+M2: first minimum                               0.469      0.469    Y   Y   Table 4
+M2: following maximum                          0.6365      0.637    Y   Y   Table 4
+M2: max/min                                  1.888743       1.89    Y   Y   Table 4
+M2: Re Gamma(0)                             0.9712987      0.971    Y   Y   Table 4
+M2: rms ln |t|<1                           0.05294393      0.053    Y   Y   Table 4
+M2: rms ln all                             0.08144758      0.081    Y   Y   Table 4
+M2: bins within 10% |t|<1 [%]                91.85185         92    Y   Y   Table 4
+M2: chi2_dsigma                              732.8339        733    Y   Y   Table 4
+M2: chi2                                     737.5361        738    Y   Y   Table 4
+M3: Delta                                  0.05222265      0.052    Y   Y   Table 4
+M3: sigma_tot                                96.56056       96.6    Y   Y   Table 4
+M3: sigma_el                                 24.58114       24.6    Y   Y   Table 4
+M3: rho                                   0.003954388      0.004    Y   Y   Table 4
+M3: slope 0.04-0.2                           19.19787      19.20    Y   Y   Table 4
+M3: first minimum                              0.4675      0.468    Y   Y   Table 4
+M3: following maximum                          0.6355      0.635    Y   Y   Table 4
+M3: max/min                                  2.000501       2.00    Y   Y   Table 4
+M3: Re Gamma(0)                             0.9340797      0.934    Y   Y   Table 4
+M3: rms ln |t|<1                           0.09639555      0.096    Y   Y   Table 4
+M3: rms ln all                              0.2171145      0.217    Y   Y   Table 4
+M3: bins within 10% |t|<1 [%]                74.81481         75    Y   Y   Table 4
+M3: chi2_dsigma                              2469.057       2469    Y   Y   Table 4
+M3: chi2                                     2560.146       2560    Y   Y   Table 4
+M4: Delta                                   0.1609347      0.161    Y   Y   Table 4
+M4: sigma_tot                                 106.139      106.1    Y   Y   Table 4
+M4: sigma_el                                  29.5276       29.5    Y   Y   Table 4
+M4: rho                                     0.1881226      0.188    Y   Y   Table 4
+M4: slope 0.04-0.2                           20.07791      20.08    Y   Y   Table 4
+M4: first minimum                                0.47      0.470    Y   Y   Table 4
+M4: following maximum                           0.634      0.634    Y   Y   Table 4
+M4: max/min                                  1.754222       1.75    Y   Y   Table 4
+M4: Re Gamma(0)                              1.013477      1.013    Y   Y   Table 4
+M4: rms ln |t|<1                           0.01604315      0.016    Y   Y   Table 4
+M4: rms ln all                              0.1224471      0.122    Y   Y   Table 4
+M4: bins within 10% |t|<1 [%]                     100        100    Y   Y   Table 4
+M4: chi2_dsigma                              71.39053         71    Y   Y   Table 4
+M4: chi2                                     169.3924        169    Y   Y   Table 4
+M2: gamma                                   0.4030392      0.403    Y   Y   Table 4
+M4: gamma                                   0.1032517      0.103    Y   Y   Table 4
+M3: H_O [GeV^-2]                            -56.67164      -56.7    Y   Y   Table 4
+M4: H_O [GeV^-2]                             55.44343       55.4    Y   Y   Table 4
+Table 2: setA at |t|=0.0499                  263.9477     263.95    Y   Y   Table 2
+Table 2: setA at |t|=0.10012                 60.93201      60.93    Y   Y   Table 2
+Table 2: setA at |t|=0.19979                 1.033408      1.033    Y   Y   Table 2
+Table 2: setA at |t|=0.2996                 0.2862431     0.2862    Y   Y   Table 2
+Table 2: setA at |t|=0.46799                0.2278931     0.2279    Y   Y   Table 2
+Table 2: setA at |t|=0.63179               0.02593764    0.02594    Y   Y   Table 2
+Table 2: A_over_TOTEM at |t|=0.0499          1.161522      1.162    Y   Y   Table 2
+Table 2: A_over_TOTEM at |t|=0.10012        0.7493791      0.749    Y   Y   Table 2
+Table 2: A_over_TOTEM at |t|=0.19979       0.09753729      0.098    Y   Y   Table 2
+Table 2: A_over_TOTEM at |t|=0.2996          0.241124      0.241    Y   Y   Table 2
+Table 2: A_over_TOTEM at |t|=0.46799         8.357466       8.36    Y   Y   Table 2
+Table 2: A_over_TOTEM at |t|=0.63179        0.5368567      0.537    Y   Y   Table 2
+Table 2: setB at |t|=0.0499                   237.346     237.35    Y   Y   Table 2
+Table 2: setB at |t|=0.10012                 83.39333      83.39    Y   Y   Table 2
+Table 2: setB at |t|=0.19979                 6.931396      6.931    Y   Y   Table 2
+Table 2: setB at |t|=0.2996                0.03719666    0.03720    Y   Y   Table 2
+Table 2: setB at |t|=0.46799                0.4025451     0.4025    Y   Y   Table 2
+Table 2: setB at |t|=0.63179                 0.194537     0.1945    Y   Y   Table 2
+Table 2: B_over_TOTEM at |t|=0.0499          1.044459      1.044    Y   Y   Table 2
+Table 2: B_over_TOTEM at |t|=0.10012         1.025622      1.026    Y   Y   Table 2
+Table 2: B_over_TOTEM at |t|=0.19979        0.6542139      0.654    Y   Y   Table 2
+Table 2: B_over_TOTEM at |t|=0.2996        0.03133353      0.031    Y   Y   Table 2
+Table 2: B_over_TOTEM at |t|=0.46799         14.76244      14.76    Y   Y   Table 2
+Table 2: B_over_TOTEM at |t|=0.63179         4.026523       4.03    Y   Y   Table 2
+
+quantity                              program      handoff   rel.diff  note
+A: sigma_tot [mb]                  139.233599     139.2336  -3.82e-09  
+A: sigma_el [mb]                   36.5402215      36.5402   5.87e-07  
+A: sigma_inel [mb]                 102.693378     102.6934  -2.14e-07  
+A: |t_0| [GeV^2]                  0.244157356     0.244157   1.46e-06  
+A: B(0) [GeV^-2]                   25.5336272      25.5336   1.07e-06  
+A: excess over TOTEM [%]           25.8893304        25.89  -2.59e-05  
+B: a                               2.53304174   2.53304174   8.78e-10  
+B: nu                              5.06608348   5.06608348   8.78e-10  
+B: lambda [GeV^-2]                 7.38433659   7.38433659  -2.59e-10  
+B: sigma_tot [mb]                       110.6        110.6   1.28e-16  input
+B: sigma_el [mb]                      31.0786      31.0786   3.43e-16  
+B: sigma_inel [mb]                    79.5214      79.5214  -1.79e-16  
+B: B(0) [GeV^-2]                   18.8313847      18.8314  -8.13e-07  
+B: |t_0| [GeV^2]                  0.315492023     0.315492   7.21e-08  
+B: dsdt at 0.04990                  237.34603      237.346   1.28e-07  handoff: bin average; program: point value
+B: dsdt at 0.10012                 83.3933278      83.3933   3.34e-07  bin avg vs point
+B: dsdt at 0.19979                 6.93139589       6.9314  -5.93e-07  bin avg vs point
+B: dsdt at 0.29960               0.0371966572    0.0371967  -1.15e-06  bin avg vs point
+B: dsdt at 0.46799                0.402545115     0.402545   2.85e-07  bin avg vs point
+B: dsdt at 0.63179                0.194537029     0.194537   1.49e-07  bin avg vs point
+B: log-lin slope 0.04-0.2          23.0830103      23.0607   9.67e-04  handoff: 94 data |t| points; program: uniform grid
+
+paper numbers checked: 215, mismatches: 0
