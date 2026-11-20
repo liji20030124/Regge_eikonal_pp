@@ -8,7 +8,7 @@ OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "output")
 def o(name): return os.path.join(OUT, name)
 matplotlib.use("Agg"); import matplotlib.pyplot as plt
 from regge_eikonal_pp import params_A, calibrate_B
-plt.rcParams.update({"font.size": 10, "font.family": "serif", "mathtext.fontset": "cm"})
+plt.rcParams.update({"font.size": 10, "font.family": "serif", "mathtext.fontset": "cm", "pdf.fonttype": 42, "ps.fonttype": 42})
 HBAR_C = 0.1973269804
 def save(fig, name):
     fig.tight_layout(); fig.savefig(os.path.join(HERE, name + ".pdf")); fig.savefig(os.path.join(HERE, name + ".png"), dpi=200); plt.close(fig)

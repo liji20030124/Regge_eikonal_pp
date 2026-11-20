@@ -22,7 +22,7 @@ from numpy.polynomial.legendre import leggauss
 from scipy.special import exp1, gammaln, j0
 from scipy.optimize import brentq
 
-plt.rcParams.update({"font.size": 10, "font.family": "serif", "mathtext.fontset": "cm"})
+plt.rcParams.update({"font.size": 10, "font.family": "serif", "mathtext.fontset": "cm", "pdf.fonttype": 42, "ps.fonttype": 42})
 GEV2_TO_MB = 0.3893793721          # 1 GeV^-2 = 0.3894 mb
 EULER = 0.5772156649015329
 
